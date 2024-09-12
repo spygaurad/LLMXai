@@ -1,0 +1,2488 @@
+Question,hybrid_retrieval_docs
+What’s the weather like today in Nepal?,"{'matches': [{'id': '7169',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 5.0,
+                           'Model': 'llama',
+                           'Rank': 129.0,
+                           'Score': 0.0008,
+                           'Size': '7B',
+                           'Summary': 'technical terms and references.',
+                           'Tokens': 'Words: X-ray, OKX, us-east-1, x=alt.X, '
+                                     'X., newX, create-next-app, DEX, '
+                                     'X-Frame-Options, app.config, '
+                                     'pan-fw02-ams4, Jan., 64-bit, Alaska, '
+                                     '//cdn.weatherapi.com/weather/64x64.',
+                           'TopK': 'X-ray|||OKX|||us-east-1|||x=alt.X|||X.|||newX|||create-next-app|||DEX|||X-Frame-Options|||app.config|||pan-fw02-ams4|||Jan.|||64-bit|||Alaska|||//cdn.weatherapi.com/weather/64x64|||3-year|||15-minute|||in-depth|||margin-right|||16-bit|||12-month|||32-bit|||Viking|||FX|||Xamarin|||edX|||two-year|||10-year|||JSX|||UX/UI|||PX4|||aming-convention|||decrease|||ethical|||TX1|||computer|||typescript-eslint|||os.File|||k-nearest|||finale|||model2.removeAll|||a-zA-Z0-9|||10-minute|||Hyper-V|||farm|||target|||my-app|||application/x-tex|||font-family|||grande',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'X-ray, OKX, us-east-1, x=alt.X, X., '
+                                       'newX, create-next-app, DEX, '
+                                       'X-Frame-Options, app.config, '
+                                       'pan-fw02-ams4, Jan., 64-bit, Alaska, '
+                                       '//cdn.weatherapi.com/weather/64x64.; '
+                                       'Summary: technical terms and '
+                                       'references.;'},
+              'score': 0.115054823,
+              'values': []},
+             {'id': '6161',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 15.0,
+                           'Model': 'llama',
+                           'Rank': 142.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'URLs and numeric expressions.',
+                           'Tokens': 'Words: '
+                                     '//cdn.weatherapi.com/weather/64x64, '
+                                     'importance, 1/4, 06/01/23, /media/, 1/5, '
+                                     '//source.unsplash.com/1600x900/, iframe, '
+                                     '6/45, 7/10, 04/21/23, 1/8/2023, ≈, '
+                                     '06/15/2022, 1/.',
+                           'TopK': '//cdn.weatherapi.com/weather/64x64|||importance|||1/4|||06/01/23|||/media/|||1/5|||//source.unsplash.com/1600x900/|||iframe|||6/45|||7/10|||04/21/23|||1/8/2023|||≈|||06/15/2022|||1/|||1/2|||06/13/2022|||01/14/2022|||1/3|||+1|||2016/680|||2/5|||int64|||24/7|||int256|||2/4/2023|||01/07/2022|||3/4|||12/30/2021|||401k|||26/03/2023|||/source|||19/02/2023|||2/|||2/3|||3/2|||2016/679|||2018/1725|||D1|||IT02654480066|||9/11|||16.4|||16.0|||+2|||src/|||A10|||+5|||3/|||1025/2012|||I/O',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       '//cdn.weatherapi.com/weather/64x64, '
+                                       'importance, 1/4, 06/01/23, /media/, '
+                                       '1/5, //source.unsplash.com/1600x900/, '
+                                       'iframe, 6/45, 7/10, 04/21/23, '
+                                       '1/8/2023, ≈, 06/15/2022, 1/.; Summary: '
+                                       'URLs and numeric expressions.;'},
+              'score': 0.108243942,
+              'values': []},
+             {'id': '3583',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 2.0,
+                           'Model': 'vicuna',
+                           'Rank': 3.0,
+                           'Score': 0.0016,
+                           'Size': '7B',
+                           'Summary': 'date and time formats.',
+                           'Tokens': 'Words: 24/7, 20°C, 1/4, 04/21/23, '
+                                     '14954/22, 2/4/2023, 1440p, 7/10, '
+                                     '1/8/2023, 3/4, 2/5, 01/14/2022, '
+                                     '01/07/2022, 60°C, 19/02/2023.',
+                           'TopK': '24/7|||20°C|||1/4|||04/21/23|||14954/22|||2/4/2023|||1440p|||7/10|||1/8/2023|||3/4|||2/5|||01/14/2022|||01/07/2022|||60°C|||19/02/2023|||2018/1725|||6/45|||06/15/2022|||the|||06/01/23|||06/13/2022|||26/03/2023|||12/30/2021|||1/5|||2048|||utf8mb4|||3/2|||2/3|||10^9/L|||2^64|||1/2|||440|||404|||480|||1025/2012|||74|||47|||420|||204|||240|||147|||174|||2016/679|||2019/1020|||2016/680|||245|||42|||24|||450|||1/3',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       '24/7, 20°C, 1/4, 04/21/23, 14954/22, '
+                                       '2/4/2023, 1440p, 7/10, 1/8/2023, 3/4, '
+                                       '2/5, 01/14/2022, 01/07/2022, 60°C, '
+                                       '19/02/2023.; Summary: date and time '
+                                       'formats.;'},
+              'score': 0.104924485,
+              'values': []},
+             {'id': '7321',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 2.0,
+                           'Model': 'llama',
+                           'Rank': 3.0,
+                           'Score': 0.0016,
+                           'Size': '7B',
+                           'Summary': 'date and time formats.',
+                           'Tokens': 'Words: 24/7, 20°C, 1/4, 04/21/23, '
+                                     '14954/22, 2/4/2023, 3/4, 1440p, 7/10, '
+                                     '1/8/2023, 2/5, 01/14/2022, 01/07/2022, '
+                                     '60°C, 2018/1725.',
+                           'TopK': '24/7|||20°C|||1/4|||04/21/23|||14954/22|||2/4/2023|||3/4|||1440p|||7/10|||1/8/2023|||2/5|||01/14/2022|||01/07/2022|||60°C|||2018/1725|||6/45|||19/02/2023|||06/15/2022|||the|||06/01/23|||1/5|||06/13/2022|||12/30/2021|||26/03/2023|||2048|||utf8mb4|||2/3|||3/2|||74|||47|||174|||147|||480|||1/2|||440|||404|||1025/2012|||10^9/L|||204|||420|||240|||2^64|||2016/679|||2019/1020|||245|||1/3|||2016/680|||1947|||1974|||450',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       '24/7, 20°C, 1/4, 04/21/23, 14954/22, '
+                                       '2/4/2023, 3/4, 1440p, 7/10, 1/8/2023, '
+                                       '2/5, 01/14/2022, 01/07/2022, 60°C, '
+                                       '2018/1725.; Summary: date and time '
+                                       'formats.;'},
+              'score': 0.104864255,
+              'values': []},
+             {'id': '3517',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 4.0,
+                           'Model': 'vicuna',
+                           'Rank': 202.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'neural network layers and parameters.',
+                           'Tokens': 'Words: tf.keras.layers.Conv2D, 1.0f, '
+                                     'initial-scale=1.0, 0.0f, '
+                                     'tf.keras.layers.Dense, dakwah, 1:1, '
+                                     'Conv2d, tensorflow.keras.layers, '
+                                     'max_length=100, 1., 1.1, 11., Pawlet, '
+                                     'max_length=20.',
+                           'TopK': ""tf.keras.layers.Conv2D|||1.0f|||initial-scale=1.0|||0.0f|||tf.keras.layers.Dense|||dakwah|||1:1|||Conv2d|||tensorflow.keras.layers|||max_length=100|||1.|||1.1|||11.|||Pawlet|||max_length=20|||nn.Conv2d|||'127.0.0.1|||0.1|||10.|||1.0|||PY2021|||handbag|||.2f|||2.1|||1.2|||12.|||'12:0-0:0|||6.1|||1.6|||16.|||127.0.0.1|||1:30|||1.0.0|||1.3|||13.|||3.1|||11:30|||Y.|||3.11|||'wc1|||:1|||19.1|||9.1|||19.|||1.9|||192.168.1.1|||tensorflow.keras.models|||11:00|||fmt.Errorf|||7.1"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'tf.keras.layers.Conv2D, 1.0f, '
+                                       'initial-scale=1.0, 0.0f, '
+                                       'tf.keras.layers.Dense, dakwah, 1:1, '
+                                       'Conv2d, tensorflow.keras.layers, '
+                                       'max_length=100, 1., 1.1, 11., Pawlet, '
+                                       'max_length=20.; Summary: neural '
+                                       'network layers and parameters.;'},
+              'score': 0.0883209,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+Can you help me with debugging a code in python?,"{'matches': [{'id': '4543',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 26.0,
+                           'Model': 'llama',
+                           'Rank': 239.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'words related to the ""subprocess"" '
+                                      'module in Python.',
+                           'Tokens': 'Words: su, suction, pay, suave, rebar, '
+                                     'Asses, Bryan, payoff, mencari, suck, '
+                                     'subprocess.run, sucre, sugerencias, '
+                                     'supuesto, subprocess.',
+                           'TopK': 'su|||suction|||pay|||suave|||rebar|||Asses|||Bryan|||payoff|||mencari|||suck|||subprocess.run|||sucre|||sugerencias|||supuesto|||subprocess|||swiping|||suhu|||sidebar|||subquery|||superset|||Shopee|||bulan|||suitor|||suporte|||argc|||rebalancing|||surat|||subtraction|||slid|||suburban|||Istanbul|||sl|||emanating|||slate|||4c|||goede|||swan|||Reformation|||sociales|||StandingFan|||reg|||bo|||bodyParser.json|||self.balance|||str2|||Tepe|||subnet|||boiler|||supérieur|||kis',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: su, '
+                                       'suction, pay, suave, rebar, Asses, '
+                                       'Bryan, payoff, mencari, suck, '
+                                       'subprocess.run, sucre, sugerencias, '
+                                       'supuesto, subprocess.; Summary: words '
+                                       'related to the ""subprocess"" module in '
+                                       'Python.;'},
+              'score': 0.312073767,
+              'values': []},
+             {'id': '6093',
+              'metadata': {'Concept': 'Syntax',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 15.0,
+                           'Model': 'llama',
+                           'Rank': 12.0,
+                           'Score': 0.0015,
+                           'Size': '7B',
+                           'Summary': 'programming syntax and code snippets.',
+                           'Tokens': 'Words: this.x, this., self.x, e.g., '
+                                     'this.id, où, it., self.error, '
+                                     'this.renderSquare, 0.0.0.0, self.data, '
+                                     'this.name, System.out.print, Feb., '
+                                     'System.in.',
+                           'TopK': 'this.x|||this.|||self.x|||e.g.|||this.id|||où|||it.|||self.error|||this.renderSquare|||0.0.0.0|||self.data|||this.name|||System.out.print|||Feb.|||System.in|||V.|||e.g|||self.query|||\\.|||a.C.|||onion|||self.log|||initial-scale=1.0|||this.state|||this.value|||network.log|||plt.xlabel|||Dr.|||self.add_widget|||0.0|||K.|||C.|||e.|||U.S.|||D.C.|||vs.|||the|||db.query|||utilisé|||1.0.0|||json.data|||N.|||armature.edit_bones.new|||self.name|||or|||c.id|||loss.backward|||Microsoft|||self.balance|||fast-growing',
+                           'Type': 'down',
+                           'metadata': 'Concept: Syntax; Tokens: Words: '
+                                       'this.x, this., self.x, e.g., this.id, '
+                                       'où, it., self.error, '
+                                       'this.renderSquare, 0.0.0.0, self.data, '
+                                       'this.name, System.out.print, Feb., '
+                                       'System.in.; Summary: programming '
+                                       'syntax and code snippets.;'},
+              'score': 0.291313171,
+              'values': []},
+             {'id': '2367',
+              'metadata': {'Concept': 'Syntax',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 15.0,
+                           'Model': 'vicuna',
+                           'Rank': 12.0,
+                           'Score': 0.0015,
+                           'Size': '7B',
+                           'Summary': 'programming syntax and code snippets.',
+                           'Tokens': 'Words: this.x, this., e.g., self.x, it., '
+                                     'this.id, this.renderSquare, self.error, '
+                                     'Feb., System.in, où, System.out.print, '
+                                     'this.name, self.data, 0.0.0.0.',
+                           'TopK': 'this.x|||this.|||e.g.|||self.x|||it.|||this.id|||this.renderSquare|||self.error|||Feb.|||System.in|||où|||System.out.print|||this.name|||self.data|||0.0.0.0|||V.|||e.g|||\\.|||self.query|||initial-scale=1.0|||network.log|||self.log|||a.C.|||onion|||this.state|||self.add_widget|||plt.xlabel|||Dr.|||C.|||this.value|||e.|||K.|||U.S.|||0.0|||utilisé|||db.query|||D.C.|||armature.edit_bones.new|||json.data|||vs.|||fast-growing|||1.0.0|||Microsoft|||self.name|||N.|||R.|||the|||or|||sg.Text|||this.y',
+                           'Type': 'down',
+                           'metadata': 'Concept: Syntax; Tokens: Words: '
+                                       'this.x, this., e.g., self.x, it., '
+                                       'this.id, this.renderSquare, '
+                                       'self.error, Feb., System.in, où, '
+                                       'System.out.print, this.name, '
+                                       'self.data, 0.0.0.0.; Summary: '
+                                       'programming syntax and code '
+                                       'snippets.;'},
+              'score': 0.290624,
+              'values': []},
+             {'id': '835',
+              'metadata': {'Concept': 'Syntax',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 25.0,
+                           'Model': 'vicuna',
+                           'Rank': 38.0,
+                           'Score': 0.0009,
+                           'Size': '7B',
+                           'Summary': 'Boolean expressions and variable '
+                                      'checks.',
+                           'Tokens': 'Words: are, isset, seven, isi, isNoisy, '
+                                     'be, sono, isinstance, isso, isError, VC, '
+                                     'isnt, PV, 7B, amis.',
+                           'TopK': 'are|||isset|||seven|||isi|||isNoisy|||be|||sono|||isinstance|||isso|||isError|||VC|||isnt|||PV|||7B|||amis|||RISC-V|||är|||BEV|||wb|||isOpen|||isAlive|||isVisible|||connais|||isometric|||Addis|||VR|||zijn|||défis|||77|||777|||7|||Kinesis|||VP|||penis|||Bm|||iris|||isActive|||sont|||b|||metropolis|||VCR|||RV|||Hyper-V|||être|||cannabis|||beer|||baking|||JV|||V5|||beverage',
+                           'Type': 'down',
+                           'metadata': 'Concept: Syntax; Tokens: Words: are, '
+                                       'isset, seven, isi, isNoisy, be, sono, '
+                                       'isinstance, isso, isError, VC, isnt, '
+                                       'PV, 7B, amis.; Summary: Boolean '
+                                       'expressions and variable checks.;'},
+              'score': 0.266676,
+              'values': []},
+             {'id': '1701',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 19.0,
+                           'Model': 'vicuna',
+                           'Rank': 3.0,
+                           'Score': 0.0017,
+                           'Size': '7B',
+                           'Summary': 'programming concepts and code snippets.',
+                           'Tokens': 'Words: java.util.ArrayList, '
+                                     'incompatible, the, this., pygame.quit, '
+                                     'sobre, vs., détaillé, insecurity, '
+                                     'intervene, perché, zero-covid, '
+                                     'inputString, java.util.List, zwei.',
+                           'TopK': ""java.util.ArrayList|||incompatible|||the|||this.|||pygame.quit|||sobre|||vs.|||détaillé|||insecurity|||intervene|||perché|||zero-covid|||inputString|||java.util.List|||zwei|||Pearl|||Math.floor|||mål|||handleInputChange|||inefficient|||Fibonacci|||invention|||build.gradle|||provincial|||inexpensive|||inizia|||in|||this.amount|||unforgettable|||reciprocal|||'asdkjasdasd2-gmdf18+ep^k4d4|||Math.pow|||models.CharField|||inhibition|||drei|||/d+|||this.angle|||++i|||unbeatable|||insecure|||functions.php|||input\\_values|||input/output|||inicio|||fentanyl|||document.body.appendChild|||java.util.Scanner|||last\\_name|||ofrece|||credentials.yml"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'java.util.ArrayList, incompatible, '
+                                       'the, this., pygame.quit, sobre, vs., '
+                                       'détaillé, insecurity, intervene, '
+                                       'perché, zero-covid, inputString, '
+                                       'java.util.List, zwei.; Summary: '
+                                       'programming concepts and code '
+                                       'snippets.;'},
+              'score': 0.264453053,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+Does LLAMA model has bias towards any religion?,"{'matches': [{'id': '6956',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 8.0,
+                           'Model': 'llama',
+                           'Rank': 215.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'language diversity.',
+                           'Tokens': 'Words: aj, fer, ajudá-lo, ajuda, '
+                                     'easiest, who, Dogecoin, infinity, '
+                                     'repurpose, 모델을, feral, intense, '
+                                     'detalles, 모델, index.',
+                           'TopK': 'aj|||fer|||ajudá-lo|||ajuda|||easiest|||who|||Dogecoin|||infinity|||repurpose|||모델을|||feral|||intense|||detalles|||모델|||index|||€|||ferment|||membership|||value-added|||secretly|||background|||wedding|||grown|||parent-child|||philosophical|||bi-weekly|||Fastlane|||번째|||módulo|||ferry|||wave|||buildup|||sternly|||Pain-Free|||ghostly|||interesses|||modbus\\_controller|||Slide|||parent|||Plymouth|||whoever|||electron|||startIndex|||weekly|||매력적인|||covet|||largely|||evenly|||régulière|||hospitalised',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: aj, '
+                                       'fer, ajudá-lo, ajuda, easiest, who, '
+                                       'Dogecoin, infinity, repurpose, 모델을, '
+                                       'feral, intense, detalles, 모델, index.; '
+                                       'Summary: language diversity.;'},
+              'score': 0.166221634,
+              'values': []},
+             {'id': '5418',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 20.0,
+                           'Model': 'llama',
+                           'Rank': 259.0,
+                           'Score': 0.0005,
+                           'Size': '7B',
+                           'Summary': 'professions or beliefs',
+                           'Tokens': 'Words: Buddhist, linguist, capitalist, '
+                                     'nothing, waist, without, feminist, '
+                                     'psychotherapist, pass, Existem, service, '
+                                     'economist, bestimmen, young, atheist.',
+                           'TopK': 'Buddhist|||linguist|||capitalist|||nothing|||waist|||without|||feminist|||psychotherapist|||pass|||Existem|||service|||economist|||bestimmen|||young|||atheist|||whistle|||theorist|||racist|||name|||deliver|||passato|||youngster|||humanist|||true|||supremacist|||eagerly|||shuffling|||senza|||nationalist|||return|||subtraction|||général|||terrorist|||waarin|||youngest|||returnvar|||name=|||linkedin|||receptionist|||Marxist|||likely|||Dienstleistungen|||Buddhism|||faction|||customer|||passport|||grande|||intereses|||heist|||interesante',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'Buddhist, linguist, capitalist, '
+                                       'nothing, waist, without, feminist, '
+                                       'psychotherapist, pass, Existem, '
+                                       'service, economist, bestimmen, young, '
+                                       'atheist.; Summary: professions or '
+                                       'beliefs;'},
+              'score': 0.164662123,
+              'values': []},
+             {'id': '7429',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 1.0,
+                           'Model': 'llama',
+                           'Rank': 222.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'ideologies or beliefs',
+                           'Tokens': 'Words: communist, traditionalist, '
+                                     'feminist, strategist, analogous, '
+                                     'economist, Buddhist, Marxist, fascist, '
+                                     'novelist, heist, theorist, extremist, '
+                                     'minimalist, specialist.',
+                           'TopK': 'communist|||traditionalist|||feminist|||strategist|||analogous|||economist|||Buddhist|||Marxist|||fascist|||novelist|||heist|||theorist|||extremist|||minimalist|||specialist|||chopped|||waist|||nationalist|||protagonist|||measuring|||bist|||activist|||socialist|||hostile|||insist|||humanist|||logistical|||juvenile|||moist|||ancestry|||simulation-based|||reptile|||fragment|||moisture|||utilisateurs|||antagonist|||twist|||linguist|||Alistair|||hobbyist|||wordsFrench|||fist|||byte|||modulated|||cropped|||psychiatry|||communism|||pianist|||allocate|||percentile',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'communist, traditionalist, feminist, '
+                                       'strategist, analogous, economist, '
+                                       'Buddhist, Marxist, fascist, novelist, '
+                                       'heist, theorist, extremist, '
+                                       'minimalist, specialist.; Summary: '
+                                       'ideologies or beliefs;'},
+              'score': 0.162837788,
+              'values': []},
+             {'id': '7460',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 0.0,
+                           'Model': 'llama',
+                           'Rank': 68.0,
+                           'Score': 0.0008,
+                           'Size': '7B',
+                           'Summary': 'Ideologies and beliefs.',
+                           'Tokens': 'Words: linguistic, terrorism, '
+                                     'unrealistic, linguist, realistic, '
+                                     'Searches, tackle, capitalism, wrinkle, '
+                                     'racism, charismatic, realism, cohesive, '
+                                     'socialism, terrorist.',
+                           'TopK': 'linguistic|||terrorism|||unrealistic|||linguist|||realistic|||Searches|||tackle|||capitalism|||wrinkle|||racism|||charismatic|||realism|||cohesive|||socialism|||terrorist|||wormhole|||artistic|||drizzle|||uncommon|||organism|||límites|||voluntarily|||ripple|||Moses|||accomplishes|||waist|||autistic|||symbolism|||absenteeism|||probabilistic|||allele|||sprinkle|||capitalize|||caracteres|||termes|||capitalist|||storm|||fördern|||asteroid|||accidentes|||feminism|||Prickle|||familiares|||parámetro|||autism|||throttle|||logistic|||sociales|||similares|||deterministic',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'linguistic, terrorism, unrealistic, '
+                                       'linguist, realistic, Searches, tackle, '
+                                       'capitalism, wrinkle, racism, '
+                                       'charismatic, realism, cohesive, '
+                                       'socialism, terrorist.; Summary: '
+                                       'Ideologies and beliefs.;'},
+              'score': 0.147708014,
+              'values': []},
+             {'id': '3667',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 1.0,
+                           'Model': 'vicuna',
+                           'Rank': 137.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': '- ""ism"" words related to concepts or '
+                                      'ideologies- Words related to different '
+                                      'types of ""isms"" such as narcissism, '
+                                      'autism, professionalism, colonialism- '
+                                      'Words related to actions or behaviors '
+                                      'such as decipher, infringe, '
+                                      'introducing- Words related to '
+                                      'organizations or groups such as '
+                                      'organism, organization, Kodia',
+                           'Tokens': 'Words: organism, narcissism, etwa, '
+                                     'autism, professionalism, Kodia, '
+                                     'decipher, narcissistic, sucesso, '
+                                     'sarcasm, infringe, introducing, '
+                                     'organization, colonialism, pal.',
+                           'TopK': 'organism|||narcissism|||etwa|||autism|||professionalism|||Kodia|||decipher|||narcissistic|||sucesso|||sarcasm|||infringe|||introducing|||organization|||colonialism|||pal|||dit|||specialist|||Docebo|||useReducer|||upscale|||therapist|||conducive|||Nick|||Buddhism|||palavras|||experiencing|||Hobbes|||Doer|||ageism|||Concierto|||mana|||autistic|||individualism|||overcame|||lub|||organizer|||feminism|||rester|||assassination|||Fraser|||glitch|||AppBar|||conglomerate|||shedding|||kg|||nonce|||gentrificación|||destroy|||assassin|||optimism',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'organism, narcissism, etwa, autism, '
+                                       'professionalism, Kodia, decipher, '
+                                       'narcissistic, sucesso, sarcasm, '
+                                       'infringe, introducing, organization, '
+                                       'colonialism, pal.; Summary: - ""ism"" '
+                                       'words related to concepts or '
+                                       'ideologies- Words related to different '
+                                       'types of ""isms"" such as narcissism, '
+                                       'autism, professionalism, colonialism- '
+                                       'Words related to actions or behaviors '
+                                       'such as decipher, infringe, '
+                                       'introducing- Words related to '
+                                       'organizations or groups such as '
+                                       'organism, organization, Kodia;'},
+              'score': 0.145873576,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+What are some good books to read on a beach?,"{'matches': [{'id': '1082',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 24.0,
+                           'Model': 'vicuna',
+                           'Rank': 188.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'Words related to swimming.',
+                           'Tokens': 'Words: en, sw, showdown, swan, pick, '
+                                     'enchant, swam, envelop, picker, '
+                                     'gratuita, swamp, envelope, Ensuite, '
+                                     'pickle, swallow.',
+                           'TopK': 'en|||sw|||showdown|||swan|||pick|||enchant|||swam|||envelop|||picker|||gratuita|||swamp|||envelope|||Ensuite|||pickle|||swallow|||encompass|||swap|||sprintf|||Fehler|||envision|||Enhanced|||train|||swarm|||swirl|||enlighten|||breakdown|||swatch|||Enrique|||swapped|||enclosed|||beloved|||dealt|||Socrates|||encompasses|||swipe|||Envoy|||EnGenius|||emocionante|||forest|||cocina|||Consul|||fee|||devez|||believing|||dealership|||deer|||enzyme|||tradeoff|||de|||firm',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: en, '
+                                       'sw, showdown, swan, pick, enchant, '
+                                       'swam, envelop, picker, gratuita, '
+                                       'swamp, envelope, Ensuite, pickle, '
+                                       'swallow.; Summary: Words related to '
+                                       'swimming.;'},
+              'score': 0.15397951,
+              'values': []},
+             {'id': '611',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 27.0,
+                           'Model': 'vicuna',
+                           'Rank': 279.0,
+                           'Score': 0.0005,
+                           'Size': '7B',
+                           'Summary': 'book formats',
+                           'Tokens': 'Words: workbook, ebook, work, corriente, '
+                                     'Corolla, storybook, ego, vervolgens, '
+                                     'escalated, exe, e-book, undergoes, '
+                                     'Delos, suspense, eget.',
+                           'TopK': 'workbook|||ebook|||work|||corriente|||Corolla|||storybook|||ego|||vervolgens|||escalated|||exe|||e-book|||undergoes|||Delos|||suspense|||eget|||composant|||exécutant|||sulle|||steep|||irony|||kemampuan|||ex|||incluem|||code|||believer|||erosion|||mushroom|||self-serve|||quem|||escalating|||storyline|||corruption|||extensiones|||exaggerated|||Moses|||Workday|||jedem|||Masterworks|||Hindi|||trans|||e|||jaw|||corriger|||establishes|||vos|||essayez|||dopo|||chiave|||Burve|||Weaknesses',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'workbook, ebook, work, corriente, '
+                                       'Corolla, storybook, ego, vervolgens, '
+                                       'escalated, exe, e-book, undergoes, '
+                                       'Delos, suspense, eget.; Summary: book '
+                                       'formats;'},
+              'score': 0.12161155,
+              'values': []},
+             {'id': '4929',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 23.0,
+                           'Model': 'llama',
+                           'Rank': 164.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'book formats',
+                           'Tokens': 'Words: fastq, Handbook, ebook, away, '
+                                     'tuck, e-book, steadfast, rake, '
+                                     'antidepressant, IntrinsicElements, ra, '
+                                     'pinch, backtrack, tune, handmade.',
+                           'TopK': 'fastq|||Handbook|||ebook|||away|||tuck|||e-book|||steadfast|||rake|||antidepressant|||IntrinsicElements|||ra|||pinch|||backtrack|||tune|||handmade|||Serviceable|||eBooks|||service|||right-hand|||accrue|||pin|||handball|||pack|||handsome|||hand|||fast|||mucus|||arid|||down|||antiviral|||Claus|||uid|||tweet|||crust|||jus|||MyService|||crusty|||Pune|||have|||pull|||ValidationError|||pid|||Ricardo|||brisket|||enduro|||rax|||Howard|||back|||triangular|||Semilac',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'fastq, Handbook, ebook, away, tuck, '
+                                       'e-book, steadfast, rake, '
+                                       'antidepressant, IntrinsicElements, ra, '
+                                       'pinch, backtrack, tune, handmade.; '
+                                       'Summary: book formats;'},
+              'score': 0.116045699,
+              'values': []},
+             {'id': '7191',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 5.0,
+                           'Model': 'llama',
+                           'Rank': 250.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'words related to filtering and '
+                                      'hand-related activities',
+                           'Tokens': 'Words: filtro, hand, models.CharField, '
+                                     'filtered_tokens, handshake, tortoise, '
+                                     'campaign, models.DateTimeField, shampoo, '
+                                     'handwriting, handwritten, handsome, '
+                                     'handmade, simplify, 음성.',
+                           'TopK': 'filtro|||hand|||models.CharField|||filtered_tokens|||handshake|||tortoise|||campaign|||models.DateTimeField|||shampoo|||handwriting|||handwritten|||handsome|||handmade|||simplify|||음성|||handy|||handcraft|||World.scale|||Abra|||handful|||handover|||astrological|||Soufiane|||metaphysical|||filter\\_status|||Cobra|||my_list|||casualty|||filter|||nostro|||satirical|||Msp|||mutable|||side|||noticed|||Abu|||antonym|||Retro|||δ|||dependent|||temp\\_f|||handicap|||다음은|||tort|||been|||document.createElement|||U\\_|||filt|||predatory|||filtration',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'filtro, hand, models.CharField, '
+                                       'filtered_tokens, handshake, tortoise, '
+                                       'campaign, models.DateTimeField, '
+                                       'shampoo, handwriting, handwritten, '
+                                       'handsome, handmade, simplify, 음성.; '
+                                       'Summary: words related to filtering '
+                                       'and hand-related activities;'},
+              'score': 0.107053377,
+              'values': []},
+             {'id': '1103',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 24.0,
+                           'Model': 'vicuna',
+                           'Rank': 240.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'words related to swimming',
+                           'Tokens': 'Words: sw, swan, swimming, swirl, '
+                                     'swapping, swell, wikibase-entityid, '
+                                     'wikibase-item, swarm, swim, swapped, '
+                                     'underperform, swimmer, SwiftUI, Quels.',
+                           'TopK': 'sw|||swan|||swimming|||swirl|||swapping|||swell|||wikibase-entityid|||wikibase-item|||swarm|||swim|||swapped|||underperform|||swimmer|||SwiftUI|||Quels|||underwater|||sig|||discontinued|||swamp|||allergen|||warna|||swallow|||feast|||consuming|||swatch|||Elie|||perform|||dissemination|||attire|||Genesis|||non-invasive|||¬t|||meditación|||watt|||wt|||Bernie|||Corp|||meditated|||Bitcoin|||warfare|||popping|||antibody|||war|||dislike|||fibre|||add-in|||Offploy|||callable|||regulation|||goku',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: sw, '
+                                       'swan, swimming, swirl, swapping, '
+                                       'swell, wikibase-entityid, '
+                                       'wikibase-item, swarm, swim, swapped, '
+                                       'underperform, swimmer, SwiftUI, '
+                                       'Quels.; Summary: words related to '
+                                       'swimming;'},
+              'score': 0.106897339,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+Can you explain the concept of automation that is present in the LLAMA model?,"{'matches': [{'id': '2724',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 13.0,
+                           'Model': 'vicuna',
+                           'Rank': 142.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'automation',
+                           'Tokens': 'Words: automatically, automatic, '
+                                     'TextInput, automate, userInput, GUI, '
+                                     'personally, needle, pickleball, '
+                                     'structuring, determine, user_input, '
+                                     'compensate, imshow, buildInputs.',
+                           'TopK': 'automatically|||automatic|||TextInput|||automate|||userInput|||GUI|||personally|||needle|||pickleball|||structuring|||determine|||user_input|||compensate|||imshow|||buildInputs|||laugh|||choice|||replace|||colour|||getUser|||professional|||deviate|||createdate|||forgiven|||HTMLInputElement|||radio|||available|||type-safe|||slight|||triple|||Input.GetAxis|||intersection|||고객의|||pace|||decide|||están|||weiter|||también|||default=False|||DropzoneInput|||alternative|||sexually|||:-1|||.replace|||kotlin|||draft|||avenue|||otras|||achievement|||indoor',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'automatically, automatic, TextInput, '
+                                       'automate, userInput, GUI, personally, '
+                                       'needle, pickleball, structuring, '
+                                       'determine, user_input, compensate, '
+                                       'imshow, buildInputs.; Summary: '
+                                       'automation;'},
+              'score': 0.445893914,
+              'values': []},
+             {'id': '1441',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 21.0,
+                           'Model': 'vicuna',
+                           'Rank': 66.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'end-users and automation.',
+                           'Tokens': 'Words: have, IDA, end-users, home, '
+                                     'Chewbacca, endurance, Importation, end, '
+                                     'affectation, end-user, endroit, had, '
+                                     'been, deco, automation.',
+                           'TopK': 'have|||IDA|||end-users|||home|||Chewbacca|||endurance|||Importation|||end|||affectation|||end-user|||endroit|||had|||been|||deco|||automation|||guild|||royalty|||deaf|||AIDA|||guard|||deactivate|||five|||gaan|||healer|||syndication|||Hasan|||Guan|||motivation|||entirety|||relaxation|||four|||utilizan|||axiom|||daya|||endanger|||mortality|||OIDC|||Satan|||homeowner|||deity|||commonality|||endow|||celebration|||arrival|||auscultation|||telecommunication|||dementia|||tenho|||with|||teleportation',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'have, IDA, end-users, home, Chewbacca, '
+                                       'endurance, Importation, end, '
+                                       'affectation, end-user, endroit, had, '
+                                       'been, deco, automation.; Summary: '
+                                       'end-users and automation.;'},
+              'score': 0.39388594,
+              'values': []},
+             {'id': '6759',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 10.0,
+                           'Model': 'llama',
+                           'Rank': 118.0,
+                           'Score': 0.0009,
+                           'Size': '7B',
+                           'Summary': 'interactions with user interface',
+                           'Tokens': 'Words: currentState, error-correcting, '
+                                     'imagery, Right-click, surgery, '
+                                     'industria, click-enticing, line-height, '
+                                     'temporary, current, right-clicking, '
+                                     'tic-tac-toe, appliquer, command-line, '
+                                     'click-through.',
+                           'TopK': 'currentState|||error-correcting|||imagery|||Right-click|||surgery|||industria|||click-enticing|||line-height|||temporary|||current|||right-clicking|||tic-tac-toe|||appliquer|||command-line|||click-through|||paused|||currently|||sitecode|||t-shirt|||logline|||lateral|||Walker|||initialState|||familia|||box-shadow|||effortlessly|||worst-case|||is_prime|||font-family|||later|||bakery|||attach|||temporarily|||handled|||imageUrl|||descrizione|||lowest|||metastatic|||currentNode|||machinery|||meticulous|||dynamic|||interpretation|||sang|||handleButtonClick|||Kahneman|||mots-clés|||secure|||margin-right|||theoretical',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'currentState, error-correcting, '
+                                       'imagery, Right-click, surgery, '
+                                       'industria, click-enticing, '
+                                       'line-height, temporary, current, '
+                                       'right-clicking, tic-tac-toe, '
+                                       'appliquer, command-line, '
+                                       'click-through.; Summary: interactions '
+                                       'with user interface;'},
+              'score': 0.387598574,
+              'values': []},
+             {'id': '2370',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 15.0,
+                           'Model': 'vicuna',
+                           'Rank': 15.0,
+                           'Score': 0.0015,
+                           'Size': '7B',
+                           'Summary': 'technology features or functionalities.',
+                           'Tokens': 'Words: click-through, game-like, '
+                                     'v-model=, pay-per-click, my-project, '
+                                     'right-clicking, well-being, '
+                                     'text-to-image, click-enticing, '
+                                     'out-of-the-box, v-for=, '
+                                     'application/x-tex, RISC-V, '
+                                     'one-size-fits-all, AR/VR.',
+                           'TopK': 'click-through|||game-like|||v-model=|||pay-per-click|||my-project|||right-clicking|||well-being|||text-to-image|||click-enticing|||out-of-the-box|||v-for=|||application/x-tex|||RISC-V|||one-size-fits-all|||AR/VR|||world-building|||text-decoration-color|||state-of-the-art|||I/O|||speech-to-text|||text-center|||record-keeping|||human-like|||Chat-GPT|||£-|||box-shadow|||well-crafted|||heal|||serial-|||life-threatening|||Karst-like|||work-related|||/Users/abhishekpillai/Library/Caches/pypoetry/virtualenvs/api|||high-performing|||E-|||and/or|||well-written|||form-group|||well-defined|||A-Z|||table-to-text|||face-to-face|||error-correcting|||grid-template-columns|||data-evernote-id=|||Oatmeal|||world-class|||go-acme|||All-Is-Alive|||param-',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'click-through, game-like, v-model=, '
+                                       'pay-per-click, my-project, '
+                                       'right-clicking, well-being, '
+                                       'text-to-image, click-enticing, '
+                                       'out-of-the-box, v-for=, '
+                                       'application/x-tex, RISC-V, '
+                                       'one-size-fits-all, AR/VR.; Summary: '
+                                       'technology features or '
+                                       'functionalities.;'},
+              'score': 0.378166348,
+              'values': []},
+             {'id': '6096',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 15.0,
+                           'Model': 'llama',
+                           'Rank': 15.0,
+                           'Score': 0.0015,
+                           'Size': '7B',
+                           'Summary': 'technology features/attributes',
+                           'Tokens': 'Words: game-like, click-through, '
+                                     'v-model=, pay-per-click, well-being, '
+                                     'my-project, right-clicking, '
+                                     'out-of-the-box, text-to-image, '
+                                     'click-enticing, v-for=, '
+                                     'application/x-tex, RISC-V, '
+                                     'one-size-fits-all, AR/VR.',
+                           'TopK': 'game-like|||click-through|||v-model=|||pay-per-click|||well-being|||my-project|||right-clicking|||out-of-the-box|||text-to-image|||click-enticing|||v-for=|||application/x-tex|||RISC-V|||one-size-fits-all|||AR/VR|||human-like|||state-of-the-art|||speech-to-text|||I/O|||record-keeping|||text-decoration-color|||world-building|||box-shadow|||Karst-like|||Chat-GPT|||text-center|||and/or|||high-performing|||work-related|||life-threatening|||well-crafted|||heal|||£-|||well-written|||/Users/abhishekpillai/Library/Caches/pypoetry/virtualenvs/api|||well-defined|||serial-|||E-|||A-Z|||form-group|||table-to-text|||data-evernote-id=|||error-correcting|||go-acme|||expert-comptable|||face-to-face|||All-Is-Alive|||one-on-one|||in-text|||Oatmeal',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'game-like, click-through, v-model=, '
+                                       'pay-per-click, well-being, my-project, '
+                                       'right-clicking, out-of-the-box, '
+                                       'text-to-image, click-enticing, v-for=, '
+                                       'application/x-tex, RISC-V, '
+                                       'one-size-fits-all, AR/VR.; Summary: '
+                                       'technology features/attributes;'},
+              'score': 0.369531959,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+What’s the latest news on Large Language Models?,"{'matches': [{'id': '2188',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 17.0,
+                           'Model': 'vicuna',
+                           'Rank': 272.0,
+                           'Score': 0.0005,
+                           'Size': '7B',
+                           'Summary': 'language processing and programming',
+                           'Tokens': 'Words: nostri, repeat, pendeteksi, 혁신적인, '
+                                     'discussion, wordsEnglish, CMS, orient, '
+                                     'mkcert, Hilton, kata, English, formal, '
+                                     'DBMS, django.urls.',
+                           'TopK': 'nostri|||repeat|||pendeteksi|||혁신적인|||discussion|||wordsEnglish|||CMS|||orient|||mkcert|||Hilton|||kata|||English|||formal|||DBMS|||django.urls|||society|||angular/core|||Math.max|||Karnataka|||ele|||knot|||hanno|||repeatable|||cuidado|||reasonable|||discuter|||dividend|||PMS|||excess|||invited|||hotel|||Cathedral|||ervoor|||WordPress.com|||utilizzati|||activation|||useRouter|||true|||sheath|||forgot|||welfare|||sentimientos|||core\\_page.id|||carrera|||math.sqrt|||resultados|||ready|||would|||travel|||rectangle',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'nostri, repeat, pendeteksi, 혁신적인, '
+                                       'discussion, wordsEnglish, CMS, orient, '
+                                       'mkcert, Hilton, kata, English, formal, '
+                                       'DBMS, django.urls.; Summary: language '
+                                       'processing and programming;'},
+              'score': 0.386051685,
+              'values': []},
+             {'id': '6194',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 15.0,
+                           'Model': 'llama',
+                           'Rank': 218.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'language diversity.',
+                           'Tokens': 'Words: okay, dialog, proposed, finale, '
+                                     'må, 서비스, hasta, circadian, open_price, '
+                                     'injury, mål, bebês, window.open, Jardin, '
+                                     'transfer.',
+                           'TopK': ""okay|||dialog|||proposed|||finale|||må|||서비스|||hasta|||circadian|||open_price|||injury|||mål|||bebês|||window.open|||Jardin|||transfer|||contribution|||firsthand|||HTML/CSS|||genius|||hardly|||quickly|||OK.|||open|||former|||OK|||diberikan|||permitted|||delay|||jusqu|||trimming|||relatively|||evaluated|||nuestra|||nome|||within|||impossible|||até|||요인에|||Cambodia|||linea|||pendidikan|||semi|||awkward|||previously|||famiglia|||conversation|||virus|||d'image|||personnel|||evaluate"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'okay, dialog, proposed, finale, må, '
+                                       '서비스, hasta, circadian, open_price, '
+                                       'injury, mål, bebês, window.open, '
+                                       'Jardin, transfer.; Summary: language '
+                                       'diversity.;'},
+              'score': 0.3843472,
+              'values': []},
+             {'id': '6913',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 8.0,
+                           'Model': 'llama',
+                           'Rank': 41.0,
+                           'Score': 0.0012,
+                           'Size': '7B',
+                           'Summary': 'language translation or multilingual '
+                                      'support.',
+                           'Tokens': 'Words: orphan, via, until, or, '
+                                     'layout_height=, oral, seg, hasta, till, '
+                                     'markup, stage, index=False, besonders, '
+                                     'viaje, would.',
+                           'TopK': 'orphan|||via|||until|||or|||layout_height=|||oral|||seg|||hasta|||till|||markup|||stage|||index=False|||besonders|||viaje|||would|||precedent|||plutôt|||await|||easy|||nerve|||remain|||high-quality|||situational|||segregation|||newline=|||remainder|||mask|||orcs|||continued|||each|||easier|||marriage|||European|||high-frequency|||thereafter|||Selain|||glimmer|||situ|||/etc|||precedence|||sf|||mergesort|||AWS|||exponential|||Olmsted|||gi|||não|||params=params|||contiene|||nube',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'orphan, via, until, or, '
+                                       'layout_height=, oral, seg, hasta, '
+                                       'till, markup, stage, index=False, '
+                                       'besonders, viaje, would.; Summary: '
+                                       'language translation or multilingual '
+                                       'support.;'},
+              'score': 0.378997177,
+              'values': []},
+             {'id': '3633',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 2.0,
+                           'Model': 'vicuna',
+                           'Rank': 296.0,
+                           'Score': 0.0005,
+                           'Size': '7B',
+                           'Summary': 'language diversity.',
+                           'Tokens': 'Words: Prisma, spoke, suction, getData, '
+                                     'diaspora, taux, post, reject, Sistemi, '
+                                     'offrir, verbal, 코칭, ImageDataGenerator, '
+                                     'tareas, revising.',
+                           'TopK': 'Prisma|||spoke|||suction|||getData|||diaspora|||taux|||post|||reject|||Sistemi|||offrir|||verbal|||코칭|||ImageDataGenerator|||tareas|||revising|||beard|||abrir|||backtesting|||sacrificing|||fun|||muestre|||rent|||beberapa|||postcard|||diberikan|||attend|||laat|||currentIndex|||système|||su|||cocoa|||ward|||Blizzard|||angry|||도와드리겠습니다|||back|||workaround|||sluggish|||aggregator|||re-run|||Datasets|||tirelessly|||abandon|||lois|||predictor|||puck|||limitation|||amis|||brewery|||aggregate',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'Prisma, spoke, suction, getData, '
+                                       'diaspora, taux, post, reject, Sistemi, '
+                                       'offrir, verbal, 코칭, '
+                                       'ImageDataGenerator, tareas, revising.; '
+                                       'Summary: language diversity.;'},
+              'score': 0.363842279,
+              'values': []},
+             {'id': '3268',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 8.0,
+                           'Model': 'vicuna',
+                           'Rank': 219.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'language diversity.',
+                           'Tokens': 'Words: flair, construir, 대상, rijbewijs, '
+                                     'construire, dormir, contemplate, mul, '
+                                     'prototype, regime, handeln, joy, '
+                                     'instead, optimizar, rijschool.',
+                           'TopK': 'flair|||construir|||대상|||rijbewijs|||construire|||dormir|||contemplate|||mul|||prototype|||regime|||handeln|||joy|||instead|||optimizar|||rijschool|||builder.Property|||nouveau|||roti|||sizeof|||self.assertEqual|||passport|||Intel|||için|||disproportionately|||Beijing|||Azure|||setContentView|||Länge|||shin|||kebijakan|||Vereinssport|||indique|||kijken|||bag|||rogue|||jelas|||Existem|||redundant|||summer|||center|||Antoine|||witness|||currency|||controlled|||wrap|||data.csv|||brighter|||alcune|||1em|||Costa',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'flair, construir, 대상, rijbewijs, '
+                                       'construire, dormir, contemplate, mul, '
+                                       'prototype, regime, handeln, joy, '
+                                       'instead, optimizar, rijschool.; '
+                                       'Summary: language diversity.;'},
+              'score': 0.362521321,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+What are some effective ways to learn a new language?,"{'matches': [{'id': '5562',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 19.0,
+                           'Model': 'llama',
+                           'Rank': 203.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'language proficiency or language '
+                                      'learning.',
+                           'Tokens': 'Words: new, nuovo, difficoltà, chose, '
+                                     'accessibility, predecessor, ongoing, '
+                                     'clearer, choose, newfound, willpower, '
+                                     'couldn, tegen, clearly, bootloader.',
+                           'TopK': 'new|||nuovo|||difficoltà|||chose|||accessibility|||predecessor|||ongoing|||clearer|||choose|||newfound|||willpower|||couldn|||tegen|||clearly|||bootloader|||non-fungible|||paycheck|||neue|||newValue|||newNode|||newer|||mv|||newPosition|||nouvelle|||resizing|||double-check|||potentiel|||proxy_pass|||legible|||attraction|||river|||sobre|||on_message|||choosing|||different|||smirk|||contrôler|||announced|||recess|||clear|||on|||placing|||empresariais|||potentiels|||cutting|||feasibility|||newHeight|||feasible|||newX|||finalizing',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: new, '
+                                       'nuovo, difficoltà, chose, '
+                                       'accessibility, predecessor, ongoing, '
+                                       'clearer, choose, newfound, willpower, '
+                                       'couldn, tegen, clearly, bootloader.; '
+                                       'Summary: language proficiency or '
+                                       'language learning.;'},
+              'score': 0.394725382,
+              'values': []},
+             {'id': '3098',
+              'metadata': {'Concept': 'Morphology',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 10.0,
+                           'Model': 'vicuna',
+                           'Rank': 299.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'words starting with ""new""',
+                           'Tokens': 'Words: newY, Vec, new, previously, '
+                                     'newPosition, newHeight, newborn, '
+                                     'República, famously, simplify, '
+                                     'podcaster, implicitly, try, Dean, '
+                                     'Vietnamese.',
+                           'TopK': 'newY|||Vec|||new|||previously|||newPosition|||newHeight|||newborn|||República|||famously|||simplify|||podcaster|||implicitly|||try|||Dean|||Vietnamese|||NGO|||src/|||/bin/bash|||newValue|||newNode|||Botanical|||newDetail.setFieldValue|||posizione|||newX|||simplicity|||/html|||pose|||Liebeck|||unhappy|||land|||Jacob|||place|||server|||mag|||muchos|||ahora|||angular/core|||magma|||användare|||park|||optimización|||newWidth|||Newcastle|||unto|||Republican|||influential|||tôi|||ondas|||parkir|||magic',
+                           'Type': 'down',
+                           'metadata': 'Concept: Morphology; Tokens: Words: '
+                                       'newY, Vec, new, previously, '
+                                       'newPosition, newHeight, newborn, '
+                                       'República, famously, simplify, '
+                                       'podcaster, implicitly, try, Dean, '
+                                       'Vietnamese.; Summary: words starting '
+                                       'with ""new"";'},
+              'score': 0.385759473,
+              'values': []},
+             {'id': '6397',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 13.0,
+                           'Model': 'llama',
+                           'Rank': 49.0,
+                           'Score': 0.0011,
+                           'Size': '7B',
+                           'Summary': 'language translation and localization.',
+                           'Tokens': 'Words: présente, 만들, donne, gibt, '
+                                     'worldwide, Stalin, R\\_Shift, greater, '
+                                     'increased, instantly, unresolved, '
+                                     'chance\\_of\\_snow, Genesis, '
+                                     'resolved\\_name, compatibility.',
+                           'TopK': 'présente|||만들|||donne|||gibt|||worldwide|||Stalin|||R\\_Shift|||greater|||increased|||instantly|||unresolved|||chance\\_of\\_snow|||Genesis|||resolved\\_name|||compatibility|||nationwide|||/delta\\_j|||when|||spatial|||property\\_id|||afterlife|||alcuni|||maior|||gab|||colonial|||forgot|||wichtiger|||temporarily|||unchanged|||designation|||graphical|||sufficient|||previous|||Deshalb|||Holly|||Yeowart|||einige|||funciona|||dominio|||array\\_merge|||➢|||array|||elles|||durability|||específicas|||data\\_position|||some|||Gruppe|||présence|||significa',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'présente, 만들, donne, gibt, worldwide, '
+                                       'Stalin, R\\_Shift, greater, increased, '
+                                       'instantly, unresolved, '
+                                       'chance\\_of\\_snow, Genesis, '
+                                       'resolved\\_name, compatibility.; '
+                                       'Summary: language translation and '
+                                       'localization.;'},
+              'score': 0.36759904,
+              'values': []},
+             {'id': '2264',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 16.0,
+                           'Model': 'vicuna',
+                           'Rank': 86.0,
+                           'Score': 0.0008,
+                           'Size': '7B',
+                           'Summary': 'language (mix of Spanish, English, and '
+                                      'French)',
+                           'Tokens': 'Words: cuando, can, niet, isError, '
+                                     'found, exoplanets, ikke, undefined, '
+                                     'retour, could, exoplanet, occasion, '
+                                     'know, vegetable, jamais.',
+                           'TopK': ""cuando|||can|||niet|||isError|||found|||exoplanets|||ikke|||undefined|||retour|||could|||exoplanet|||occasion|||know|||vegetable|||jamais|||bitmap|||descend|||grandchild|||pipe|||보다|||foundational|||não|||cane|||find|||texture|||neuen|||Familie|||fall|||output.txt|||when|||handleChange|||berbeda|||정보|||canned|||revolutionizing|||eliminated|||qu'est|||l'ensemble|||chaque|||qu'elle|||replaced|||handleCloseModal|||error-free|||underworld|||juego|||error|||XMLHttpRequest|||auprès|||jaar|||après"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'cuando, can, niet, isError, found, '
+                                       'exoplanets, ikke, undefined, retour, '
+                                       'could, exoplanet, occasion, know, '
+                                       'vegetable, jamais.; Summary: language '
+                                       '(mix of Spanish, English, and '
+                                       'French);'},
+              'score': 0.348647684,
+              'values': []},
+             {'id': '2487',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 15.0,
+                           'Model': 'vicuna',
+                           'Rank': 257.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'language learning',
+                           'Tokens': 'Words: impart, Spanish, imbalanced, '
+                                     'uncertain, sale, injured, importance, '
+                                     'combined, appendChild, aiutarti, cl, '
+                                     'clase, Italian, personal, grit.',
+                           'TopK': 'impart|||Spanish|||imbalanced|||uncertain|||sale|||injured|||importance|||combined|||appendChild|||aiutarti|||cl|||clase|||Italian|||personal|||grit|||ChildComponent|||Bereichen|||addition|||Portuguese|||salutation|||imbalance|||counterpart|||irritation|||freedom|||safety|||em|||pena|||authoritative|||everything|||emocional|||Appendix|||desirable|||composite|||reuse|||rut|||Athena|||hyperparameters|||irritate|||polynomial|||Appendices|||French|||combining|||durée|||Oncology|||lifetime|||emitter|||doubt|||None|||Simon|||readable',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'impart, Spanish, imbalanced, '
+                                       'uncertain, sale, injured, importance, '
+                                       'combined, appendChild, aiutarti, cl, '
+                                       'clase, Italian, personal, grit.; '
+                                       'Summary: language learning;'},
+              'score': 0.34427157,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+Can you recommend a movie or TV show based on my interests?,"{'matches': [{'id': '3089',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 10.0,
+                           'Model': 'vicuna',
+                           'Rank': 261.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'programming concepts/functions',
+                           'Tokens': 'Words: TV, discomfort, appendToScreen, '
+                                     'azioni, append, DirectTV, θ, Chandler, '
+                                     'Eddie, là, ListView, headshot, '
+                                     'uncomfortable, interrupt, σ.',
+                           'TopK': 'TV|||discomfort|||appendToScreen|||azioni|||append|||DirectTV|||θ|||Chandler|||Eddie|||là|||ListView|||headshot|||uncomfortable|||interrupt|||σ|||dit|||confusion|||NASDAQ|||uint|||bill|||Jamie|||ITV|||accident|||fill=|||и|||FAQ|||priority|||minDays|||appendChild|||follow-up|||pytube|||dislike|||enforcing|||travail|||angular/core|||typo|||quantum|||GitLab|||Rouge|||.fill|||format=|||academic|||și|||.sort|||accidentally|||möglich|||donde|||ctx.fillStyle|||makeup|||confusing',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: TV, '
+                                       'discomfort, appendToScreen, azioni, '
+                                       'append, DirectTV, θ, Chandler, Eddie, '
+                                       'là, ListView, headshot, uncomfortable, '
+                                       'interrupt, σ.; Summary: programming '
+                                       'concepts/functions;'},
+              'score': 0.118553989,
+              'values': []},
+             {'id': '614',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 27.0,
+                           'Model': 'vicuna',
+                           'Rank': 284.0,
+                           'Score': 0.0005,
+                           'Size': '7B',
+                           'Summary': 'perception of reality',
+                           'Tokens': 'Words: real, realm, realistic, realism, '
+                                     'realization, Unreal, real-life, '
+                                     'realidad, realizing, unrealistic, '
+                                     'realiza, realista, real-world, realise, '
+                                     'realtime.',
+                           'TopK': 'real|||realm|||realistic|||realism|||realization|||Unreal|||real-life|||realidad|||realizing|||unrealistic|||realiza|||realista|||real-world|||realise|||realtime|||realize|||simulation|||X-Real-IP|||real-time|||self-service|||realistically|||comet|||vet|||per|||Kommunikation|||self.query|||casinò|||self.app|||perdu|||boil|||vad3|||Sim2K|||self.data|||alike|||simulation-based|||Minikube|||cómo|||vad|||surreal|||self-confidence|||livestock|||ketika|||simvastatin|||congregation|||OPA|||kj|||Neo4j|||pre|||Respostas|||Revelation',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'real, realm, realistic, realism, '
+                                       'realization, Unreal, real-life, '
+                                       'realidad, realizing, unrealistic, '
+                                       'realiza, realista, real-world, '
+                                       'realise, realtime.; Summary: '
+                                       'perception of reality;'},
+              'score': 0.100317881,
+              'values': []},
+             {'id': '5380',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 20.0,
+                           'Model': 'llama',
+                           'Rank': 172.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'nightlife and entertainment.',
+                           'Tokens': 'Words: nightlife, nightclub, duty, '
+                                     'dunia, Arabia, maupun, setiap, close, '
+                                     'importance, relevan, alternate, '
+                                     'favorite, night, sección, rectangular.',
+                           'TopK': 'nightlife|||nightclub|||duty|||dunia|||Arabia|||maupun|||setiap|||close|||importance|||relevan|||alternate|||favorite|||night|||sección|||rectangular|||self-improvement|||near|||paper|||Arabic|||regler|||través|||rect|||CreateObject|||personnelles|||club|||hard|||inp|||BigDecimal|||mantenimiento|||more|||exhaust|||religion|||correctement|||desired|||numéro|||alternating|||nearest|||Urantia|||personnelle|||informazioni|||closest|||numero|||afterlife|||favour|||Fitzpatrick|||cleanup|||well-known|||opic|||nearby|||bet',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'nightlife, nightclub, duty, dunia, '
+                                       'Arabia, maupun, setiap, close, '
+                                       'importance, relevan, alternate, '
+                                       'favorite, night, sección, '
+                                       'rectangular.; Summary: nightlife and '
+                                       'entertainment.;'},
+              'score': 0.0996684283,
+              'values': []},
+             {'id': '2202',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 17.0,
+                           'Model': 'vicuna',
+                           'Rank': 289.0,
+                           'Score': 0.0005,
+                           'Size': '7B',
+                           'Summary': 'thinking and decision-making',
+                           'Tokens': 'Words: integrative, think, imagination, '
+                                     ""if/else, required, 'required, future, ""
+                                     'beginning, pourquoi, if-else, formative, '
+                                     'suggestion, observe, Criteria, thinker.',
+                           'TopK': ""integrative|||think|||imagination|||if/else|||required|||'required|||future|||beginning|||pourquoi|||if-else|||formative|||suggestion|||observe|||Criteria|||thinker|||innovative|||delete|||Africa|||legislative|||spoof|||bacon|||Kenntnisse|||Webhooks|||indicative|||.lower|||narrative|||EOF|||sightsee|||entertain|||elseif|||preventative|||verdadera|||show|||excessively|||page|||average|||excessive|||draft|||forêt|||phone|||for|||else|||disagreement|||semaforo|||filtration|||null=True|||melee|||MAVLink|||vivre|||superlative"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'integrative, think, imagination, '
+                                       ""if/else, required, 'required, future, ""
+                                       'beginning, pourquoi, if-else, '
+                                       'formative, suggestion, observe, '
+                                       'Criteria, thinker.; Summary: thinking '
+                                       'and decision-making;'},
+              'score': 0.0994861051,
+              'values': []},
+             {'id': '159',
+              'metadata': {'Concept': 'Morphology',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 30.0,
+                           'Model': 'vicuna',
+                           'Rank': 164.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'words with the letter combination ""ar""',
+                           'Tokens': 'Words: handel, Regel, scam, '
+                                     'interstellar, caramel, boredom, '
+                                     'encontrar, handicap, bard, aboard, '
+                                     'bowel, therapist, bagel, bh, '
+                                     'psychedelic.',
+                           'TopK': 'handel|||Regel|||scam|||interstellar|||caramel|||boredom|||encontrar|||handicap|||bard|||aboard|||bowel|||therapist|||bagel|||bh|||psychedelic|||determinar|||psychotherapist|||Chapel|||réel|||pastel|||publicar|||BABS|||nickel|||Hegel|||dasar|||bist|||duel|||peel|||balsamic|||SAPROD|||symptom|||slam|||Dilip|||preach|||sear|||semelhante|||heel|||hasil|||sebesar|||SGD|||camel|||adicionar|||lobe|||realizar|||Mattel|||aumentar|||explicar|||agar|||transit|||interdisciplinary',
+                           'Type': 'down',
+                           'metadata': 'Concept: Morphology; Tokens: Words: '
+                                       'handel, Regel, scam, interstellar, '
+                                       'caramel, boredom, encontrar, handicap, '
+                                       'bard, aboard, bowel, therapist, bagel, '
+                                       'bh, psychedelic.; Summary: words with '
+                                       'the letter combination ""ar"";'},
+              'score': 0.0978859514,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+How do I manage stress and anxiety?,"{'matches': [{'id': '5030',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 22.0,
+                           'Model': 'llama',
+                           'Rank': 69.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'work-related stress',
+                           'Tokens': 'Words: come, overcoming, overwork, over, '
+                                     'overload, work, workload, turnover, '
+                                     'overpower, came, overlapping, Makeover, '
+                                     'Rover, failover, overwriting.',
+                           'TopK': 'come|||overcoming|||overwork|||over|||overload|||work|||workload|||turnover|||overpower|||came|||overlapping|||Makeover|||Rover|||failover|||overwriting|||overcrowd|||overtime|||oversee|||workshop|||overthrow|||handover|||Overall|||overview|||takeover|||JPEG|||bite|||gum|||Comece|||overlook|||insufficient|||optimum|||coming|||remover|||Ethereum|||countdown|||drawdown|||overwhelm|||Gin|||noter|||Mifflin|||Overwatch|||toxin|||generar|||gym|||workstation|||non-overlapping|||sleepover|||mum|||bietet|||not',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'come, overcoming, overwork, over, '
+                                       'overload, work, workload, turnover, '
+                                       'overpower, came, overlapping, '
+                                       'Makeover, Rover, failover, '
+                                       'overwriting.; Summary: work-related '
+                                       'stress;'},
+              'score': 0.244355008,
+              'values': []},
+             {'id': '5322',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 20.0,
+                           'Model': 'llama',
+                           'Rank': 84.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'mental state or mindset',
+                           'Tokens': 'Words: mind-body, mind, seul, alone, '
+                                     'goodbye, day, apache2, mindset, seule, '
+                                     'día, room, pruning, richtig, way, with.',
+                           'TopK': 'mind-body|||mind|||seul|||alone|||goodbye|||day|||apache2|||mindset|||seule|||día|||room|||pruning|||richtig|||way|||with|||first-person|||avec|||underway|||true|||cheapest|||atas|||años|||small|||richtige|||single-page|||máquina|||space|||Cantor|||open-minded|||Jackie|||cv2.destroyAllWindows|||solo|||mindful|||sailor|||want|||oversee|||populated|||máquinas|||like-minded|||daya|||mspace|||Poe|||holder|||basée|||waterfall|||términos|||Jahr|||information|||oftentimes|||saas',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'mind-body, mind, seul, alone, goodbye, '
+                                       'day, apache2, mindset, seule, día, '
+                                       'room, pruning, richtig, way, with.; '
+                                       'Summary: mental state or mindset;'},
+              'score': 0.21765703,
+              'values': []},
+             {'id': '5007',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 22.0,
+                           'Model': 'llama',
+                           'Rank': 40.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'work-related stress and negative '
+                                      'experiences.',
+                           'Tokens': 'Words: overwork, downfall, over, down, '
+                                     'no, work, noi, commence, upbringing, '
+                                     'cumbersome, lounging, Scribe, into, '
+                                     'renter, comenzar.',
+                           'TopK': 'overwork|||downfall|||over|||down|||no|||work|||noi|||commence|||upbringing|||cumbersome|||lounging|||Scribe|||into|||renter|||comenzar|||begin|||lobster|||encouraging|||lower|||baitboat|||xlebomatb|||challenging|||Steuerberatung|||startling|||FDIC|||showdown|||multitasking|||text.lower|||collateral|||arriving|||overwriting|||gambling|||DayNotArrivedModal|||prescribe|||instructional|||robotic|||began|||grabbing|||rework|||bite|||bait|||workbook|||rb|||bilingual|||Overwatch|||analyzing|||banning|||alliteration|||sacrificing|||bidding',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'overwork, downfall, over, down, no, '
+                                       'work, noi, commence, upbringing, '
+                                       'cumbersome, lounging, Scribe, into, '
+                                       'renter, comenzar.; Summary: '
+                                       'work-related stress and negative '
+                                       'experiences.;'},
+              'score': 0.201581299,
+              'values': []},
+             {'id': '5196',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 21.0,
+                           'Model': 'llama',
+                           'Rank': 116.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'stress and workload',
+                           'Tokens': 'Words: itch, hour, Rigidbody, micro, '
+                                     'overload, tension, workload, inside, '
+                                     'coming, it, life, source, unload, covid, '
+                                     'recordId.',
+                           'TopK': 'itch|||hour|||Rigidbody|||micro|||overload|||tension|||workload|||inside|||coming|||it|||life|||source|||unload|||covid|||recordId|||accountId|||item.id|||lose|||Guid|||firsthand|||agua|||heures|||account_id|||avid|||memantau|||load|||allusion|||account\\_id|||ciudad|||microservices|||secondhand|||last|||sessionid|||recreational|||Sparky|||pension|||waist|||connaître|||aggressively|||los|||farine|||item_id|||sourceData|||json.load|||microstructure|||worksheet|||mic|||microprocessor|||life-changing|||cyclist',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'itch, hour, Rigidbody, micro, '
+                                       'overload, tension, workload, inside, '
+                                       'coming, it, life, source, unload, '
+                                       'covid, recordId.; Summary: stress and '
+                                       'workload;'},
+              'score': 0.195757166,
+              'values': []},
+             {'id': '4808',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 24.0,
+                           'Model': 'llama',
+                           'Rank': 210.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'work-related stress and coping '
+                                      'mechanisms.',
+                           'Tokens': 'Words: traumatic, mum, subcontract, '
+                                     'hold, childlike, subcontractor, sprint, '
+                                     'insomnia, filum, roller, warmth, OOH, '
+                                     'roll, sub-contractors, cross-training.',
+                           'TopK': 'traumatic|||mum|||subcontract|||hold|||childlike|||subcontractor|||sprint|||insomnia|||filum|||roller|||warmth|||OOH|||roll|||sub-contractors|||cross-training|||TAA|||tariff|||Anki|||child|||jumlah|||subcontinent|||belum|||contar|||sine|||resumo|||snake|||recession|||endX|||s|||conta|||Themen|||Continual|||sola|||police|||swarm|||matière|||mat|||yum|||contagious|||end|||contain|||Dame|||TX|||post-traumatic|||Bloom|||curriculum|||sedia|||hukum|||Jumala|||s0',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'traumatic, mum, subcontract, hold, '
+                                       'childlike, subcontractor, sprint, '
+                                       'insomnia, filum, roller, warmth, OOH, '
+                                       'roll, sub-contractors, '
+                                       'cross-training.; Summary: work-related '
+                                       'stress and coping mechanisms.;'},
+              'score': 0.188000336,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+What are some fun activities to do in holiday?,"{'matches': [{'id': '4952',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 23.0,
+                           'Model': 'llama',
+                           'Rank': 225.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'Words related to rhyming with ""day""',
+                           'Tokens': 'Words: daylight, Rachel, hostel, bowel, '
+                                     'Chapel, duel, heel, peel, held, caramel, '
+                                     'skateboard, Mattel, Meru, day, camel.',
+                           'TopK': 'daylight|||Rachel|||hostel|||bowel|||Chapel|||duel|||heel|||peel|||held|||caramel|||skateboard|||Mattel|||Meru|||day|||camel|||reel|||right|||voxel|||Sentinel|||CircleCI|||Lionel|||payoff|||coupon|||weld|||cartel|||deal|||circle|||diesel|||self-attention|||stall|||surfboard|||réel|||yaitu|||ciencia|||kommen|||barang|||Dremel|||nickel|||Jean-Michel|||Workday|||paycheck|||lighten|||Eiffel|||Redlands|||watt|||pastel|||alta|||flashlight|||stitch|||setelah',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'daylight, Rachel, hostel, bowel, '
+                                       'Chapel, duel, heel, peel, held, '
+                                       'caramel, skateboard, Mattel, Meru, '
+                                       'day, camel.; Summary: Words related to '
+                                       'rhyming with ""day"";'},
+              'score': 0.261915863,
+              'values': []},
+             {'id': '5019',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 22.0,
+                           'Model': 'llama',
+                           'Rank': 52.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'work-related activities',
+                           'Tokens': 'Words: work, workload, rework, teamwork, '
+                                     'woodwork, artwork, coursework, workbook, '
+                                     'workout, firework, workshop, workplace, '
+                                     'after-work, Workday, showdown.',
+                           'TopK': 'work|||workload|||rework|||teamwork|||woodwork|||artwork|||coursework|||workbook|||workout|||firework|||workshop|||workplace|||after-work|||Workday|||showdown|||workforce|||Arbeit|||stall|||shot|||overwork|||trabajo|||markdown|||workspace|||newest|||headshot|||travail|||Upwork|||clockwork|||work-related|||drawdown|||Allison|||Overall|||down|||groundwork|||asd|||agregado|||acara|||Plymouth|||workstation|||kita|||paperwork|||replayability|||workmanship|||good|||come|||baggage|||countdown|||better|||homework|||acerca',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'work, workload, rework, teamwork, '
+                                       'woodwork, artwork, coursework, '
+                                       'workbook, workout, firework, workshop, '
+                                       'workplace, after-work, Workday, '
+                                       'showdown.; Summary: work-related '
+                                       'activities;'},
+              'score': 0.243534163,
+              'values': []},
+             {'id': '5688',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 18.0,
+                           'Model': 'llama',
+                           'Rank': 127.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'days',
+                           'Tokens': 'Words: day, día, modern-day, day-to-day, '
+                                     'giorno, weaker, snowball, relay, '
+                                     'weekday, daylight, stating, melhor, '
+                                     'icebreaker, psychographics, days=1.',
+                           'TopK': 'day|||día|||modern-day|||day-to-day|||giorno|||weaker|||snowball|||relay|||weekday|||daylight|||stating|||melhor|||icebreaker|||psychographics|||days=1|||5-day|||Wednesday|||same-sex|||microservices|||mondiale|||problemas|||FirstName|||receptor|||제품|||shaker|||createElement|||1-day|||impossible|||DataMember|||DataGrid|||comparator|||제품을|||fan|||top-down|||incubator|||course|||seat|||normalizing|||collaborator|||educator|||microbe|||4-day|||announcing|||upstream-downstream|||elif|||year-over-year|||same|||successful|||snow|||together',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: day, '
+                                       'día, modern-day, day-to-day, giorno, '
+                                       'weaker, snowball, relay, weekday, '
+                                       'daylight, stating, melhor, icebreaker, '
+                                       'psychographics, days=1.; Summary: '
+                                       'days;'},
+              'score': 0.232392102,
+              'values': []},
+             {'id': '7500',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 0.0,
+                           'Model': 'llama',
+                           'Rank': 241.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'activities or hobbies',
+                           'Tokens': 'Words: game-changing, game-like, '
+                                     'game-changer, Suffa, futuro, enduro, '
+                                     'biking, intimidating, story, '
+                                     'record-keeping, game, long-lasting, '
+                                     'hiking, \\Windows\\System32/bcdedit.exe, '
+                                     'loving.',
+                           'TopK': 'game-changing|||game-like|||game-changer|||Suffa|||futuro|||enduro|||biking|||intimidating|||story|||record-keeping|||game|||long-lasting|||hiking|||\\Windows\\System32/bcdedit.exe|||loving|||hingga|||SD-WAN|||pa|||circle|||facilitating|||multitasking|||storyboard|||seguro|||lounging|||tasting|||Thing|||storyboards|||onboarding|||popup|||sting|||PTSD|||StandingFan|||advising|||Bring|||jus|||in-game|||bibliothèque|||Sheffield|||trafficking|||Cfg|||System.Threading.Tasks|||contact|||scoping|||lois|||Paxlovid|||Democrat|||jungle|||Luke|||ubuntu-latest|||conclusion',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'game-changing, game-like, '
+                                       'game-changer, Suffa, futuro, enduro, '
+                                       'biking, intimidating, story, '
+                                       'record-keeping, game, long-lasting, '
+                                       'hiking, '
+                                       '\\Windows\\System32/bcdedit.exe, '
+                                       'loving.; Summary: activities or '
+                                       'hobbies;'},
+              'score': 0.199516535,
+              'values': []},
+             {'id': '5380',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 20.0,
+                           'Model': 'llama',
+                           'Rank': 172.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'nightlife and entertainment.',
+                           'Tokens': 'Words: nightlife, nightclub, duty, '
+                                     'dunia, Arabia, maupun, setiap, close, '
+                                     'importance, relevan, alternate, '
+                                     'favorite, night, sección, rectangular.',
+                           'TopK': 'nightlife|||nightclub|||duty|||dunia|||Arabia|||maupun|||setiap|||close|||importance|||relevan|||alternate|||favorite|||night|||sección|||rectangular|||self-improvement|||near|||paper|||Arabic|||regler|||través|||rect|||CreateObject|||personnelles|||club|||hard|||inp|||BigDecimal|||mantenimiento|||more|||exhaust|||religion|||correctement|||desired|||numéro|||alternating|||nearest|||Urantia|||personnelle|||informazioni|||closest|||numero|||afterlife|||favour|||Fitzpatrick|||cleanup|||well-known|||opic|||nearby|||bet',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'nightlife, nightclub, duty, dunia, '
+                                       'Arabia, maupun, setiap, close, '
+                                       'importance, relevan, alternate, '
+                                       'favorite, night, sección, '
+                                       'rectangular.; Summary: nightlife and '
+                                       'entertainment.;'},
+              'score': 0.199352384,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+How can I start a successful blog or online business?,"{'matches': [{'id': '2526',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 14.0,
+                           'Model': 'vicuna',
+                           'Rank': 49.0,
+                           'Score': 0.0011,
+                           'Size': '7B',
+                           'Summary': 'business startup',
+                           'Tokens': 'Words: decision, both, build, first, '
+                                     'suddenly, initially, an, start, '
+                                     'demonstrated, become, bankrupt, '
+                                     'theology, avenue, potential, startapp.',
+                           'TopK': 'decision|||both|||build|||first|||suddenly|||initially|||an|||start|||demonstrated|||become|||bankrupt|||theology|||avenue|||potential|||startapp|||attraction|||public|||caching|||updating|||backtest|||establish|||design|||France|||ggplot|||announcement|||CFO|||áreas|||GUI|||the|||regularly|||Julia|||busy|||genannt|||initial|||beautiful|||ugly|||a|||firsthand|||haven|||eggplant|||tiene|||became|||engagement|||Dungeon|||bankruptcy|||eng|||irrespective|||scoop|||then|||melihat',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'decision, both, build, first, '
+                                       'suddenly, initially, an, start, '
+                                       'demonstrated, become, bankrupt, '
+                                       'theology, avenue, potential, '
+                                       'startapp.; Summary: business startup;'},
+              'score': 0.267155111,
+              'values': []},
+             {'id': '2967',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 11.0,
+                           'Model': 'vicuna',
+                           'Rank': 188.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'business analysis and strategy',
+                           'Tokens': 'Words: SWOT, isometric, beneficial, '
+                                     'myself, demonstrate, on-premises, '
+                                     'situation, controlled, worst, '
+                                     'form-control, co-creation, nehmen, '
+                                     'baked, on-premise, devriez.',
+                           'TopK': ""SWOT|||isometric|||beneficial|||myself|||demonstrate|||on-premises|||situation|||controlled|||worst|||form-control|||co-creation|||nehmen|||baked|||on-premise|||devriez|||depends_on|||on-prem|||SMOTE|||ourselves|||keyserver|||os.makedirs|||margin-top|||learn|||demonstrated|||darkness|||literal|||create-next-app|||key-value|||your_username|||vest|||standard|||:shared_ptr|||'username|||IntrinsicElements|||'utf-8|||Alleren|||extrinsic|||EAGLES|||Next.js|||puis-je|||high-stakes|||blank|||topology|||Malcolm|||echo|||demonstration|||så|||signal-to-noise|||'key|||événements"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'SWOT, isometric, beneficial, myself, '
+                                       'demonstrate, on-premises, situation, '
+                                       'controlled, worst, form-control, '
+                                       'co-creation, nehmen, baked, '
+                                       'on-premise, devriez.; Summary: '
+                                       'business analysis and strategy;'},
+              'score': 0.24490872,
+              'values': []},
+             {'id': '5182',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 21.0,
+                           'Model': 'llama',
+                           'Rank': 86.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'starting or beginning',
+                           'Tokens': 'Words: guarantee, see, over, began, '
+                                     'homepage, begin, begun, overwriting, '
+                                     'homeownership, start, home, elusive, '
+                                     'overnight, overthrow, layoff.',
+                           'TopK': 'guarantee|||see|||over|||began|||homepage|||begin|||begun|||overwriting|||homeownership|||start|||home|||elusive|||overnight|||overthrow|||layoff|||homeowner|||Passover|||parasite|||enemy|||marlene\\_zamora|||borderline|||asparagus|||Utilisez|||overweight|||kasus|||startapp|||performer\\_id|||order\\_id|||takeover|||Nexus|||beginning|||statistician|||lay|||obstacle|||default\\_back\\_zombie|||sleepover|||overpower|||personalization|||¿Cómo|||z\\_k|||overwork|||diversas|||department\\_id|||sehen|||quartz|||homework|||offline|||último|||Debian|||feelslike\\_c',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'guarantee, see, over, began, homepage, '
+                                       'begin, begun, overwriting, '
+                                       'homeownership, start, home, elusive, '
+                                       'overnight, overthrow, layoff.; '
+                                       'Summary: starting or beginning;'},
+              'score': 0.221517697,
+              'values': []},
+             {'id': '2964',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 11.0,
+                           'Model': 'vicuna',
+                           'Rank': 178.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'web development',
+                           'Tokens': 'Words: gate, nearly, newsletter, '
+                                     'gracias, margin, tinygrad, contenitore, '
+                                     'Setting, Gupta, /body, substitute, '
+                                     'practice, promoter, invert, subdomain.',
+                           'TopK': ""gate|||nearly|||newsletter|||gracias|||margin|||tinygrad|||contenitore|||Setting|||Gupta|||/body|||substitute|||practice|||promoter|||invert|||subdomain|||favor|||necesidades|||/msub|||convertido|||encrust|||thought|||reverse|||commerciaux|||selectedDir|||anything|||Kama|||desired|||setup|||Sublime|||week|||corn|||nombre|||'flexible\\_spec|||webinar|||funciones|||indict|||machinery|||Mongoose|||grad|||menekankan|||populate|||respuesta|||conversion|||Svar|||washer|||Lama|||Substack|||webpage|||Westgate|||dynamodb"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'gate, nearly, newsletter, gracias, '
+                                       'margin, tinygrad, contenitore, '
+                                       'Setting, Gupta, /body, substitute, '
+                                       'practice, promoter, invert, '
+                                       'subdomain.; Summary: web development;'},
+              'score': 0.213776797,
+              'values': []},
+             {'id': '5042',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 22.0,
+                           'Model': 'llama',
+                           'Rank': 89.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'initiating or starting something',
+                           'Tokens': 'Words: comenzar, start, começar, began, '
+                                     'hardworking, abordar, roar, made, '
+                                     'pembelajaran, make, soar, Debra, '
+                                     'tailwindcss, hard, startling.',
+                           'TopK': 'comenzar|||start|||começar|||began|||hardworking|||abordar|||roar|||made|||pembelajaran|||make|||soar|||Debra|||tailwindcss|||hard|||startling|||hostel|||look|||Retro|||Adele|||kerja|||tornar|||Outro|||cataract|||commence|||makeup|||lookback|||displaced|||encontrar|||hardness|||begin|||beginning|||astrological|||makeshift|||cutoff|||QR|||init|||railroad|||mecánica|||transcendent|||startproject|||replication|||livre|||mejorar|||pre-made|||advance|||Installez|||soutien|||usage|||controlar|||starten',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'comenzar, start, começar, began, '
+                                       'hardworking, abordar, roar, made, '
+                                       'pembelajaran, make, soar, Debra, '
+                                       'tailwindcss, hard, startling.; '
+                                       'Summary: initiating or starting '
+                                       'something;'},
+              'score': 0.20924224,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+What are the best practices for maintaining a healthy lifestyle?,"{'matches': [{'id': '1640',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 20.0,
+                           'Model': 'vicuna',
+                           'Rank': 163.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'workplace culture and employee '
+                                      'well-being.',
+                           'Tokens': 'Words: necessary, currentTime, '
+                                     'encouraged, gestión, current\\_time, '
+                                     'billable, undervalued, responsibly, '
+                                     'respectfully, encouraging, imputed, '
+                                     'approachable, part, Seed, wellbeing.',
+                           'TopK': 'necessary|||currentTime|||encouraged|||gestión|||current\\_time|||billable|||undervalued|||responsibly|||respectfully|||encouraging|||imputed|||approachable|||part|||Seed|||wellbeing|||wearable|||bet|||noticeable|||needle|||current|||well-documented|||multitasking|||rebirth|||understandable|||homeland|||searchable|||well-positioned|||partage|||Greenville|||respecto|||loving|||recyclable|||involved|||easy|||bukan|||democratic|||invaluable|||gesture|||discretion|||PortableDevice|||관련된|||Friendster|||serait|||necessity|||stunned|||n^2|||lakukan|||enumerable|||defeat|||advisable',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'necessary, currentTime, encouraged, '
+                                       'gestión, current\\_time, billable, '
+                                       'undervalued, responsibly, '
+                                       'respectfully, encouraging, imputed, '
+                                       'approachable, part, Seed, wellbeing.; '
+                                       'Summary: workplace culture and '
+                                       'employee well-being.;'},
+              'score': 0.13079305,
+              'values': []},
+             {'id': '7310',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 3.0,
+                           'Model': 'llama',
+                           'Rank': 259.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'health and wellness',
+                           'Tokens': 'Words: well-being, family-friendly, '
+                                     'dietitian, garlic, fingertip, radian, '
+                                     'Egyptian, wellbeing, tracing, '
+                                     'Illustrator, garner, mantener, papier, '
+                                     'scoping, Brazilian.',
+                           'TopK': 'well-being|||family-friendly|||dietitian|||garlic|||fingertip|||radian|||Egyptian|||wellbeing|||tracing|||Illustrator|||garner|||mantener|||papier|||scoping|||Brazilian|||DJI|||swiping|||beginner-friendly|||administrator|||referencia|||sting|||yearly|||circadian|||noun|||nursing|||~dp0adb.exe|||puberty|||evaluator|||dampak|||competing|||enclosing|||ventilator|||click-enticing|||Objetivos|||ECS|||preparing|||.toBeInTheDocument|||bouncing|||dar|||tweet|||menentukan|||Ambiverts|||issuing|||todo|||implementasi|||GCS|||pet-friendly|||musician|||Sprache|||upgrading',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'well-being, family-friendly, '
+                                       'dietitian, garlic, fingertip, radian, '
+                                       'Egyptian, wellbeing, tracing, '
+                                       'Illustrator, garner, mantener, papier, '
+                                       'scoping, Brazilian.; Summary: health '
+                                       'and wellness;'},
+              'score': 0.128278822,
+              'values': []},
+             {'id': '5045',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 22.0,
+                           'Model': 'llama',
+                           'Rank': 92.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'work-life balance.',
+                           'Tokens': 'Words: go, backbone, took, cyclical, bh, '
+                                     'paid, life, os.walk, taking, raft, '
+                                     'breakdown, delf, climb, efetivas, '
+                                     'work-life.',
+                           'TopK': ""go|||backbone|||took|||cyclical|||bh|||paid|||life|||os.walk|||taking|||raft|||breakdown|||delf|||climb|||efetivas|||work-life|||take|||prefab|||spotlight|||seasonal|||Transactional|||preço|||'wb|||b|||bride|||Zoho|||multiclass|||scanf|||menstrual|||interpersonal|||carb|||Frage|||FBI|||goose|||pre|||boring|||breach|||forty|||permisos|||cf|||goto|||load_boston|||documento|||cross-functional|||wildlife|||/f|||penal|||lover|||justo|||pay|||institutional"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: go, '
+                                       'backbone, took, cyclical, bh, paid, '
+                                       'life, os.walk, taking, raft, '
+                                       'breakdown, delf, climb, efetivas, '
+                                       'work-life.; Summary: work-life '
+                                       'balance.;'},
+              'score': 0.118489906,
+              'values': []},
+             {'id': '7068',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 6.0,
+                           'Model': 'llama',
+                           'Rank': 58.0,
+                           'Score': 0.0011,
+                           'Size': '7B',
+                           'Summary': 'personal development/self-improvement',
+                           'Tokens': 'Words: preparedness, weiterhin, '
+                                     'consciousness, selfishness, ofrece, '
+                                     'weakness, narcissism, throughout, how, '
+                                     'wilderness, self-awareness, freshness, '
+                                     'powerful, population, of.',
+                           'TopK': 'preparedness|||weiterhin|||consciousness|||selfishness|||ofrece|||weakness|||narcissism|||throughout|||how|||wilderness|||self-awareness|||freshness|||powerful|||population|||of|||parent-child|||snail|||Spond|||alertness|||glance|||thickness|||defect|||richness|||fitness|||mereka|||bookshelf|||irrigation|||hardness|||randomness|||obtain|||illustrate|||snatch|||niche|||Capitol|||sickness|||smoker|||invoke|||importance|||generics.GenericAPIView|||liberalism|||Eigenschaften|||symbolism|||greatness|||overwriting|||product/service|||gratuit|||shortness|||PyQt|||artificially|||shape=',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'preparedness, weiterhin, '
+                                       'consciousness, selfishness, ofrece, '
+                                       'weakness, narcissism, throughout, how, '
+                                       'wilderness, self-awareness, freshness, '
+                                       'powerful, population, of.; Summary: '
+                                       'personal '
+                                       'development/self-improvement;'},
+              'score': 0.112127513,
+              'values': []},
+             {'id': '1121',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 24.0,
+                           'Model': 'vicuna',
+                           'Rank': 284.0,
+                           'Score': 0.0005,
+                           'Size': '7B',
+                           'Summary': 'work-life balance.',
+                           'Tokens': 'Words: life, QEMU, afterlife, '
+                                     'microservices, work-life, donnée, '
+                                     'wildlife, break, semen, breakout, '
+                                     'adaptée, salariés, Workday, chiedere, '
+                                     'give.',
+                           'TopK': 'life|||QEMU|||afterlife|||microservices|||work-life|||donnée|||wildlife|||break|||semen|||breakout|||adaptée|||salariés|||Workday|||chiedere|||give|||waterfront|||kill|||gave|||chilies|||sem|||boutique|||physique|||salarial|||Ensalada|||crée|||semana|||Buch|||giving|||IR|||frontline|||held|||running|||appropriée|||submitted|||throughput|||UAV|||Leben|||Spond|||registration|||entrée|||beitragen|||index.ts|||workspace|||bespoke|||inbox|||watercolor|||Tapenade|||journée|||colaborativa|||Granada',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'life, QEMU, afterlife, microservices, '
+                                       'work-life, donnée, wildlife, break, '
+                                       'semen, breakout, adaptée, salariés, '
+                                       'Workday, chiedere, give.; Summary: '
+                                       'work-life balance.;'},
+              'score': 0.107300431,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+Can you give me tips for improving my writing skills?,"{'matches': [{'id': '5325',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 20.0,
+                           'Model': 'llama',
+                           'Rank': 87.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'writing skills or writing-related '
+                                      'concepts.',
+                           'Tokens': 'Words: write, during, game-like, '
+                                     'overwriting, wrote, bus, copywriting, '
+                                     'obtain, industry-specific, data-, '
+                                     'human-like, sought-after, excess, '
+                                     'first-year, 5-6.',
+                           'TopK': ""write|||during|||game-like|||overwriting|||wrote|||bus|||copywriting|||obtain|||industry-specific|||data-|||human-like|||sought-after|||excess|||first-year|||5-6|||runApp|||exécuter|||substrate|||kontrol|||domain-specific|||durante|||carreira|||jadwal|||victory|||help|||homeownership|||story|||efficacy|||supremacy|||increased|||HTML5|||65|||56|||ran|||4-5|||platform-specific|||depth-first|||64-bit|||autoridad|||combination|||l'écran|||securely|||buscar|||optimizer='adam|||6-8|||house|||materially|||5|||55|||555"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'write, during, game-like, overwriting, '
+                                       'wrote, bus, copywriting, obtain, '
+                                       'industry-specific, data-, human-like, '
+                                       'sought-after, excess, first-year, '
+                                       '5-6.; Summary: writing skills or '
+                                       'writing-related concepts.;'},
+              'score': 0.340728849,
+              'values': []},
+             {'id': '2362',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 16.0,
+                           'Model': 'vicuna',
+                           'Rank': 295.0,
+                           'Score': 0.0005,
+                           'Size': '7B',
+                           'Summary': 'methods and techniques for improving '
+                                      'storytelling style.',
+                           'Tokens': 'Words: situation, method, storytelling, '
+                                     'AVL, style, rappresentano, alcune, '
+                                     'method=, improved, story, improve, '
+                                     'style=, mutex, storybook, technique.',
+                           'TopK': 'situation|||method|||storytelling|||AVL|||style|||rappresentano|||alcune|||method=|||improved|||story|||improve|||style=|||mutex|||storybook|||technique|||titled|||PostgreSQL|||doc|||docstring|||strain|||Anakin|||alguns|||condiment|||experto|||scenario|||opportunités|||JWT|||influencia|||légumes|||livre|||alcuni|||energy-saving|||well-documented|||sparkle|||same|||belt|||paving|||panopticon|||seamstress|||légales|||boutique|||unisex|||empresarial|||methodological|||db.collection|||rumah|||adversarial|||전략|||terrible|||style.css',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'situation, method, storytelling, AVL, '
+                                       'style, rappresentano, alcune, method=, '
+                                       'improved, story, improve, style=, '
+                                       'mutex, storybook, technique.; Summary: '
+                                       'methods and techniques for improving '
+                                       'storytelling style.;'},
+              'score': 0.27850768,
+              'values': []},
+             {'id': '290',
+              'metadata': {'Concept': 'Phonology',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 29.0,
+                           'Model': 'vicuna',
+                           'Rank': 230.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'rhyming words.',
+                           'Tokens': 'Words: Chow, vow, Yeowart, endow, Meow, '
+                                     'little, pillow, lint, bestow, notch, '
+                                     'chiave, writer.writerow, Alzheimer, '
+                                     'Inditech, Wow.',
+                           'TopK': 'Chow|||vow|||Yeowart|||endow|||Meow|||little|||pillow|||lint|||bestow|||notch|||chiave|||writer.writerow|||Alzheimer|||Inditech|||Wow|||Consul|||itch|||porch|||delve|||vowel|||tint|||slay|||exchanging|||abusive|||sugiere|||shallow|||lover|||Ramsay|||Desayuno|||rendah|||TileType.Block|||Utilisez|||son|||deceit|||ecológico|||hijo|||torch|||gum|||Hamlet|||mpz\\_t|||Perry|||Swimsuit|||e|||Autowired|||Widow|||ensayo|||free|||outlet|||Kabbalah|||Blake',
+                           'Type': 'down',
+                           'metadata': 'Concept: Phonology; Tokens: Words: '
+                                       'Chow, vow, Yeowart, endow, Meow, '
+                                       'little, pillow, lint, bestow, notch, '
+                                       'chiave, writer.writerow, Alzheimer, '
+                                       'Inditech, Wow.; Summary: rhyming '
+                                       'words.;'},
+              'score': 0.27545929,
+              'values': []},
+             {'id': '1223',
+              'metadata': {'Concept': 'Morphology',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 23.0,
+                           'Model': 'vicuna',
+                           'Rank': 161.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'handwriting',
+                           'Tokens': 'Words: spam, handwritten, fast-paced, '
+                                     'perkembangan, coût, handmade, seam, '
+                                     'egen, handwriting, perbedaan, '
+                                     'right-hand, hand, roam, add-on, '
+                                     'left-hand.',
+                           'TopK': 'spam|||handwritten|||fast-paced|||perkembangan|||coût|||handmade|||seam|||egen|||handwriting|||perbedaan|||right-hand|||hand|||roam|||add-on|||left-hand|||Kyson|||ppm|||addon|||ksp|||tsp|||caché|||grumpy|||sebuah|||packaging|||nanny|||coque|||grim|||pandangan|||capstone|||rake|||metastatic|||aman|||seamstress|||chunk|||pasos|||seamless|||sham|||Canyon|||recourse|||chunkSize|||spanner|||head-on|||pemahaman|||Kanye|||bedrijf|||Merriam|||berbeda|||right-eyed|||tiap|||Nah',
+                           'Type': 'down',
+                           'metadata': 'Concept: Morphology; Tokens: Words: '
+                                       'spam, handwritten, fast-paced, '
+                                       'perkembangan, coût, handmade, seam, '
+                                       'egen, handwriting, perbedaan, '
+                                       'right-hand, hand, roam, add-on, '
+                                       'left-hand.; Summary: handwriting;'},
+              'score': 0.269161582,
+              'values': []},
+             {'id': '7067',
+              'metadata': {'Concept': 'Morphology',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 6.0,
+                           'Model': 'llama',
+                           'Rank': 57.0,
+                           'Score': 0.0011,
+                           'Size': '7B',
+                           'Summary': 'handwriting',
+                           'Tokens': 'Words: anomaly, faith, kublr, manual, '
+                                     'handout, handelt, handwriting, wurde, '
+                                     'handsome, intelligent, recognized, hand, '
+                                     'LoadBalancer, pero, guarantee.',
+                           'TopK': 'anomaly|||faith|||kublr|||manual|||handout|||handelt|||handwriting|||wurde|||handsome|||intelligent|||recognized|||hand|||LoadBalancer|||pero|||guarantee|||garantir|||.slice|||cybernetic|||eigenvalue|||handmade|||privileged|||permet|||método|||요구|||thinning|||constrain|||pepsi|||k++|||sea|||seafood|||CO2|||via|||kubectl|||value=|||vbnet|||Watchdog|||barcode|||optimize|||repay|||ago|||328|||raw|||straw|||teamwork|||tariff|||suo|||Handbook|||handover|||ontology|||punk',
+                           'Type': 'down',
+                           'metadata': 'Concept: Morphology; Tokens: Words: '
+                                       'anomaly, faith, kublr, manual, '
+                                       'handout, handelt, handwriting, wurde, '
+                                       'handsome, intelligent, recognized, '
+                                       'hand, LoadBalancer, pero, guarantee.; '
+                                       'Summary: handwriting;'},
+              'score': 0.2674101,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+What are the latest trends in technology or innovation?,"{'matches': [{'id': '5776',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 17.0,
+                           'Model': 'llama',
+                           'Rank': 1.0,
+                           'Score': 0.0021,
+                           'Size': '7B',
+                           'Summary': 'technology and its impact on society',
+                           'Tokens': 'Words: 도와드리겠습니다, 데이터베이스, 심리적, 고려해야, 기술을, '
+                                     '일반적으로, 전반적으로, 데이터를, 사회적, 콘텐츠를, 긍정적인, 기술, '
+                                     '매력적인, 일반적인, 효과적으로.',
+                           'TopK': '도와드리겠습니다|||데이터베이스|||심리적|||고려해야|||기술을|||일반적으로|||전반적으로|||데이터를|||사회적|||콘텐츠를|||긍정적인|||기술|||매력적인|||일반적인|||효과적으로|||in|||저는|||물론입니다|||메가와트시당|||있도록|||있는지|||역할을|||복잡하고|||콘텐츠|||데이터|||있는|||있다는|||있습니다|||américaine|||mehrere|||원자력|||효과적인|||전략을|||먼저|||도와드릴|||necesitarás|||있습니까|||생산하는|||있다고|||가치를|||있지만|||중점을|||새로운|||슬라이드|||검색|||a|||같습니다|||전략|||(|||프로그램',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       '도와드리겠습니다, 데이터베이스, 심리적, 고려해야, 기술을, '
+                                       '일반적으로, 전반적으로, 데이터를, 사회적, 콘텐츠를, 긍정적인, '
+                                       '기술, 매력적인, 일반적인, 효과적으로.; Summary: '
+                                       'technology and its impact on society;'},
+              'score': 0.397457659,
+              'values': []},
+             {'id': '3139',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 9.0,
+                           'Model': 'vicuna',
+                           'Rank': 74.0,
+                           'Score': 0.001,
+                           'Size': '7B',
+                           'Summary': 'technology advancements',
+                           'Tokens': 'Words: Santander, already, Sander, '
+                                     'autre, bereits, accès, figuring, '
+                                     'qualifier, advancement, until, evolving, '
+                                     ""alternator, Ideen, 'Yes, AWS."",
+                           'TopK': ""Santander|||already|||Sander|||autre|||bereits|||accès|||figuring|||qualifier|||advancement|||until|||evolving|||alternator|||Ideen|||'Yes|||AWS|||sugiere|||bibliothèque|||particular|||propre|||modify|||accumulating|||Thielemans|||Yes|||wikibase-entityid|||getByText|||Sweaty|||broaden|||monoxide|||tahun|||Narrator|||amateur|||invece|||March|||'Task|||dato|||role-based|||wander|||.Result|||estructura|||Abril|||compris|||résultats|||recognize|||majority|||quale|||staat|||ese|||extrinsic|||rule-based|||unpaid"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'Santander, already, Sander, autre, '
+                                       'bereits, accès, figuring, qualifier, '
+                                       'advancement, until, evolving, '
+                                       ""alternator, Ideen, 'Yes, AWS.; ""
+                                       'Summary: technology advancements;'},
+              'score': 0.307372,
+              'values': []},
+             {'id': '88',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 30.0,
+                           'Model': 'vicuna',
+                           'Rank': 9.0,
+                           'Score': 0.0011,
+                           'Size': '7B',
+                           'Summary': 'software development and technology '
+                                      'terms',
+                           'Tokens': 'Words: pay-per-click, end-of-life, '
+                                     'eslint-disable-next-line, '
+                                     'create-next-app, out-of-the-box, '
+                                     'create-react-app, go-to-market, '
+                                     'state-of-the-art, must-have, '
+                                     'over-the-counter, re-design, up-to-date, '
+                                     'year-over-year, b-, text-to-image.',
+                           'TopK': 'pay-per-click|||end-of-life|||eslint-disable-next-line|||create-next-app|||out-of-the-box|||create-react-app|||go-to-market|||state-of-the-art|||must-have|||over-the-counter|||re-design|||up-to-date|||year-over-year|||b-|||text-to-image|||drag-and-drop|||grid-template-columns|||pre-|||re-run|||m-|||risk-free|||one-to-many|||pre-built|||pre-order|||call-to-action|||one-size-fits-all|||re-write|||easy-to-read|||end-to-end|||pre-process|||pre-made|||pre-defined|||speech-to-text|||easy-to-use|||easy-to-understand|||table-to-text|||X-Real-IP|||one-of-a-kind|||many-to-many|||high-level|||data-|||word-of-mouth|||low-cost|||node-pre-gyp|||low-level|||mid-level|||calls-to-action|||step-by-step|||turn-based|||higher-level',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'pay-per-click, end-of-life, '
+                                       'eslint-disable-next-line, '
+                                       'create-next-app, out-of-the-box, '
+                                       'create-react-app, go-to-market, '
+                                       'state-of-the-art, must-have, '
+                                       'over-the-counter, re-design, '
+                                       'up-to-date, year-over-year, b-, '
+                                       'text-to-image.; Summary: software '
+                                       'development and technology terms;'},
+              'score': 0.260695428,
+              'values': []},
+             {'id': '3619',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 2.0,
+                           'Model': 'vicuna',
+                           'Rank': 204.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'technology advancement',
+                           'Tokens': 'Words: superficie, Injectable, usable, '
+                                     'promo, colonization, rage, mexicano, '
+                                     'preciso, costo, incrementally, '
+                                     'promoción, modernization, modernizing, '
+                                     'clickable, experience.',
+                           'TopK': 'superficie|||Injectable|||usable|||promo|||colonization|||rage|||mexicano|||preciso|||costo|||incrementally|||promoción|||modernization|||modernizing|||clickable|||experience|||Carol|||mexicana|||steadily|||environmentally|||shareable|||Shanghai|||favorable|||correo|||nullable|||memorable|||mdi|||prioritization|||fertility|||receivable|||encode|||enorme|||prioritizing|||degree|||projeto|||reachable|||underlying|||unremarkable|||substitution|||redo|||promocode|||promote|||Moses|||specialization|||appealable|||adorable|||achievable|||segmento|||specializing|||uncomfortable|||convention',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'superficie, Injectable, usable, promo, '
+                                       'colonization, rage, mexicano, preciso, '
+                                       'costo, incrementally, promoción, '
+                                       'modernization, modernizing, clickable, '
+                                       'experience.; Summary: technology '
+                                       'advancement;'},
+              'score': 0.260406405,
+              'values': []},
+             {'id': '6096',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 15.0,
+                           'Model': 'llama',
+                           'Rank': 15.0,
+                           'Score': 0.0015,
+                           'Size': '7B',
+                           'Summary': 'technology features/attributes',
+                           'Tokens': 'Words: game-like, click-through, '
+                                     'v-model=, pay-per-click, well-being, '
+                                     'my-project, right-clicking, '
+                                     'out-of-the-box, text-to-image, '
+                                     'click-enticing, v-for=, '
+                                     'application/x-tex, RISC-V, '
+                                     'one-size-fits-all, AR/VR.',
+                           'TopK': 'game-like|||click-through|||v-model=|||pay-per-click|||well-being|||my-project|||right-clicking|||out-of-the-box|||text-to-image|||click-enticing|||v-for=|||application/x-tex|||RISC-V|||one-size-fits-all|||AR/VR|||human-like|||state-of-the-art|||speech-to-text|||I/O|||record-keeping|||text-decoration-color|||world-building|||box-shadow|||Karst-like|||Chat-GPT|||text-center|||and/or|||high-performing|||work-related|||life-threatening|||well-crafted|||heal|||£-|||well-written|||/Users/abhishekpillai/Library/Caches/pypoetry/virtualenvs/api|||well-defined|||serial-|||E-|||A-Z|||form-group|||table-to-text|||data-evernote-id=|||error-correcting|||go-acme|||expert-comptable|||face-to-face|||All-Is-Alive|||one-on-one|||in-text|||Oatmeal',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'game-like, click-through, v-model=, '
+                                       'pay-per-click, well-being, my-project, '
+                                       'right-clicking, out-of-the-box, '
+                                       'text-to-image, click-enticing, v-for=, '
+                                       'application/x-tex, RISC-V, '
+                                       'one-size-fits-all, AR/VR.; Summary: '
+                                       'technology features/attributes;'},
+              'score': 0.246896058,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+How do I prepare for an upcoming job interview?,"{'matches': [{'id': '1283',
+              'metadata': {'Concept': 'Syntax',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 22.0,
+                           'Model': 'vicuna',
+                           'Rank': 22.0,
+                           'Score': 0.0008,
+                           'Size': '7B',
+                           'Summary': 'prepositions and phrases',
+                           'Tokens': 'Words: with, on, isOn, avec, up, auf, '
+                                     'onMountFunction, cleanup, must-have, '
+                                     'node-pre-gyp, you, onChange, '
+                                     'over-the-counter, upcoming, second-hand.',
+                           'TopK': 'with|||on|||isOn|||avec|||up|||auf|||onMountFunction|||cleanup|||must-have|||node-pre-gyp|||you|||onChange|||over-the-counter|||upcoming|||second-hand|||us-east-1|||upbeat|||pay-per-click|||b-|||onOpen|||thank-you|||left-hand|||ongoing|||onClose|||msup|||user-|||onPressed|||signup|||muy|||WorldCup|||1-|||onboard|||right-hand|||hidup|||IoT-based|||one-shot|||4-|||plant-based|||Windows-Support-Core|||co-worker|||full-length|||är|||isinstance|||£-|||upfront|||Occupational|||human-like|||me|||role-based|||onprogress',
+                           'Type': 'down',
+                           'metadata': 'Concept: Syntax; Tokens: Words: with, '
+                                       'on, isOn, avec, up, auf, '
+                                       'onMountFunction, cleanup, must-have, '
+                                       'node-pre-gyp, you, onChange, '
+                                       'over-the-counter, upcoming, '
+                                       'second-hand.; Summary: prepositions '
+                                       'and phrases;'},
+              'score': 0.114488237,
+              'values': []},
+             {'id': '4048',
+              'metadata': {'Concept': 'Morphology',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 29.0,
+                           'Model': 'llama',
+                           'Rank': 139.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'Words starting with ""pre""',
+                           'Tokens': 'Words: pre, preach, genuine, predefined, '
+                                     'Infine, pregnant, pre-order, preload, '
+                                     'pre-commit, Nadine, preposition, precio, '
+                                     'predominant, precaution, spine.',
+                           'TopK': 'pre|||preach|||genuine|||predefined|||Infine|||pregnant|||pre-order|||preload|||pre-commit|||Nadine|||preposition|||precio|||predominant|||precaution|||spine|||preprocesses|||precious|||feminine|||spit|||prefab|||Canine|||dine|||prevalent|||preprocess|||shine|||Fitclass|||paragrafo|||precondition|||farine|||cocaine|||masculine|||revisit|||pemrograman|||Supreem|||preço|||precautionary|||shit|||leitura|||Valentine|||deceit|||palavra|||pre-|||pre-defined|||sine|||bereit|||bandit|||windchill\\_c|||predominantly|||Doch|||-it',
+                           'Type': 'down',
+                           'metadata': 'Concept: Morphology; Tokens: Words: '
+                                       'pre, preach, genuine, predefined, '
+                                       'Infine, pregnant, pre-order, preload, '
+                                       'pre-commit, Nadine, preposition, '
+                                       'precio, predominant, precaution, '
+                                       'spine.; Summary: Words starting with '
+                                       '""pre"";'},
+              'score': 0.110440686,
+              'values': []},
+             {'id': '5143',
+              'metadata': {'Concept': 'Syntax',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 21.0,
+                           'Model': 'llama',
+                           'Rank': 34.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'phrases with the word ""up""',
+                           'Tokens': 'Words: Make-up, set-up, close-up, '
+                                     'start-up, up, sign-up, pop-up, pick-up, '
+                                     'Wrap-up, pull-up, makeup, Warm-up, '
+                                     'up-to-date, good, stand-up.',
+                           'TopK': 'Make-up|||set-up|||close-up|||start-up|||up|||sign-up|||pop-up|||pick-up|||Wrap-up|||pull-up|||makeup|||Warm-up|||up-to-date|||good|||stand-up|||non-clustered|||follow-up|||top-up|||well-organized|||criticized|||Yup|||colonized|||out|||personalized|||drag-and-drop|||open-minded|||signup|||lineup|||hidup|||like-minded|||meetup|||push-ups|||outperform|||mid-sized|||workout|||FX-denominated|||personalised|||donated|||pickup|||authorized|||energized|||agreed-upon|||canned|||node-pre-gyp|||third-person|||upfront|||fine-grained|||WorldCup|||characterized|||down',
+                           'Type': 'down',
+                           'metadata': 'Concept: Syntax; Tokens: Words: '
+                                       'Make-up, set-up, close-up, start-up, '
+                                       'up, sign-up, pop-up, pick-up, Wrap-up, '
+                                       'pull-up, makeup, Warm-up, up-to-date, '
+                                       'good, stand-up.; Summary: phrases with '
+                                       'the word ""up"";'},
+              'score': 0.110347271,
+              'values': []},
+             {'id': '5136',
+              'metadata': {'Concept': 'Syntax',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 21.0,
+                           'Model': 'llama',
+                           'Rank': 27.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'phrasal verbs with ""up""',
+                           'Tokens': 'Words: up, from, makeup, signup, '
+                                     'upfront, cleanup, Make-up, pickup, '
+                                     'Rollup, Yup, upcoming, meetup, set-up, '
+                                     'hidup, upstream.',
+                           'TopK': ""up|||from|||makeup|||signup|||upfront|||cleanup|||Make-up|||pickup|||Rollup|||Yup|||upcoming|||meetup|||set-up|||hidup|||upstream|||msup|||sign-up|||start-up|||close-up|||från|||ketchup|||'from|||OwnBackup|||stand-up|||uproc|||pick-up|||top-up|||WorldCup|||pop-up|||upbeat|||upward|||follow-up|||Occupational|||bypass|||by|||FIFAWorldCup|||/msup|||presupuesto|||WorldCupFinal|||pull-up|||lineup|||pickup_address|||up-to-date|||upheaval|||FIFAWorldCupFinal|||Wrap-up|||fromage|||cukup|||inch|||tokenized"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Syntax; Tokens: Words: up, '
+                                       'from, makeup, signup, upfront, '
+                                       'cleanup, Make-up, pickup, Rollup, Yup, '
+                                       'upcoming, meetup, set-up, hidup, '
+                                       'upstream.; Summary: phrasal verbs with '
+                                       '""up"";'},
+              'score': 0.107718445,
+              'values': []},
+             {'id': '267',
+              'metadata': {'Concept': 'Morphology',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 29.0,
+                           'Model': 'vicuna',
+                           'Rank': 139.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'Words starting with ""pre""',
+                           'Tokens': 'Words: pre, preach, pregnant, '
+                                     'predefined, predominant, windchill\\_c, '
+                                     'pre-order, preload, precio, pre-commit, '
+                                     'preprocesses, precious, leitura, '
+                                     'preposition, precaution.',
+                           'TopK': 'pre|||preach|||pregnant|||predefined|||predominant|||windchill\\_c|||pre-order|||preload|||precio|||pre-commit|||preprocesses|||precious|||leitura|||preposition|||precaution|||Doch|||revisit|||spit|||genuine|||Nadine|||bandit|||instill|||preço|||Infine|||precondition|||Fitclass|||deceit|||conducive|||precautionary|||preprocess|||audit|||inhibit|||Bm|||prohibit|||-it|||paragrafo|||feminine|||diarrhea|||outreach|||predominantly|||bereit|||shit|||pre-|||pre-defined|||dine|||exhibit|||predatory|||prefab|||prevalent|||Fernandet',
+                           'Type': 'down',
+                           'metadata': 'Concept: Morphology; Tokens: Words: '
+                                       'pre, preach, pregnant, predefined, '
+                                       'predominant, windchill\\_c, pre-order, '
+                                       'preload, precio, pre-commit, '
+                                       'preprocesses, precious, leitura, '
+                                       'preposition, precaution.; Summary: '
+                                       'Words starting with ""pre"";'},
+              'score': 0.100029,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+Does Vicuna model has concept of logic and maths ?,"{'matches': [{'id': '3093',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 10.0,
+                           'Model': 'vicuna',
+                           'Rank': 278.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'mathematics and logic',
+                           'Tokens': 'Words: calcul, calculate, Trinity, '
+                                     'place, selon, far, benda, entonces, '
+                                     'then, masculinity, calculated, '
+                                     'archaeological, unless, test, hologram.',
+                           'TopK': 'calcul|||calculate|||Trinity|||place|||selon|||far|||benda|||entonces|||then|||masculinity|||calculated|||archaeological|||unless|||test|||hologram|||incorrectly|||testosterone|||Thanksgiving|||lugar|||whisper|||makna|||fill|||correctly|||.target|||archiving|||upper|||further|||waren|||anyway|||accumulate|||eran|||agenda|||Here|||meat|||cashew|||og|||visionary|||field|||Beziehungen|||sync|||era|||IB|||DirectTV|||intégrer|||shout|||invece|||forgotten|||pull|||Technologien|||famille',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'calcul, calculate, Trinity, place, '
+                                       'selon, far, benda, entonces, then, '
+                                       'masculinity, calculated, '
+                                       'archaeological, unless, test, '
+                                       'hologram.; Summary: mathematics and '
+                                       'logic;'},
+              'score': 0.464743435,
+              'values': []},
+             {'id': '6187',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 15.0,
+                           'Model': 'llama',
+                           'Rank': 208.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'programming concepts and terms.',
+                           'Tokens': 'Words: .click, condition, parameter, '
+                                     '.numpy, .then, quick, adaptation, '
+                                     'collègue, deprecated, available, '
+                                     'Amazon.com, '
+                                     '//www.w3.org/1998/Math/MathML, weekday, '
+                                     'Matratzen, encapsulate.',
+                           'TopK': '.click|||condition|||parameter|||.numpy|||.then|||quick|||adaptation|||collègue|||deprecated|||available|||Amazon.com|||//www.w3.org/1998/Math/MathML|||weekday|||Matratzen|||encapsulate|||må|||appearance|||click|||trop|||Math.random|||.name|||everything|||uncertain|||.first|||Calisthenic|||.text|||contradictory|||Bazaar|||achieved|||Amazon|||Terran|||dance|||.trim|||notice|||geological|||esse|||influential|||decorative|||.center|||.5|||.next|||conditioner|||territorial|||Math.PI|||nonce|||.encode|||daily|||_MainTex|||ill|||Cal.com',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       '.click, condition, parameter, .numpy, '
+                                       '.then, quick, adaptation, collègue, '
+                                       'deprecated, available, Amazon.com, '
+                                       '//www.w3.org/1998/Math/MathML, '
+                                       'weekday, Matratzen, encapsulate.; '
+                                       'Summary: programming concepts and '
+                                       'terms.;'},
+              'score': 0.412669808,
+              'values': []},
+             {'id': '2355',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 16.0,
+                           'Model': 'vicuna',
+                           'Rank': 278.0,
+                           'Score': 0.0005,
+                           'Size': '7B',
+                           'Summary': 'programming models or frameworks',
+                           'Tokens': 'Words: models.CharField, createdAt, '
+                                     'created, sklearn.preprocessing, '
+                                     'models.Model, model.fit, simple, '
+                                     'meisten, models.py, lead, replaced, '
+                                     'models.ForeignKey, periodo, me, '
+                                     'sklearn.linear_model.',
+                           'TopK': 'models.CharField|||createdAt|||created|||sklearn.preprocessing|||models.Model|||model.fit|||simple|||meisten|||models.py|||lead|||replaced|||models.ForeignKey|||periodo|||me|||sklearn.linear_model|||Kerberos|||gridcell|||superficie|||Unfortunately|||born|||IES|||skirt|||sentence|||cidade|||model.compile|||até|||domestic|||centroid|||golf|||sheet.getRange|||extarea|||wp|||utiliza|||Sus|||Outlook|||Knapsack|||look|||homeless|||receive|||Eliza|||fino|||auto|||fragility|||handyman|||experienced|||nightlife|||modelo|||Herald|||zo|||bird',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'models.CharField, createdAt, created, '
+                                       'sklearn.preprocessing, models.Model, '
+                                       'model.fit, simple, meisten, models.py, '
+                                       'lead, replaced, models.ForeignKey, '
+                                       'periodo, me, sklearn.linear_model.; '
+                                       'Summary: programming models or '
+                                       'frameworks;'},
+              'score': 0.408709317,
+              'values': []},
+             {'id': '6586',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 12.0,
+                           'Model': 'llama',
+                           'Rank': 180.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'programming models',
+                           'Tokens': 'Words: mode\\_setting, mode, reward, '
+                                     'modem, item.name, scrname, entire, '
+                                     'international, propose, retain, almost, '
+                                     'bidang, controlled, model\\_name, '
+                                     'available.',
+                           'TopK': 'mode\\_setting|||mode|||reward|||modem|||item.name|||scrname|||entire|||international|||propose|||retain|||almost|||bidang|||controlled|||model\\_name|||available|||gab|||ASCII|||tent|||continued|||model\\_config.model\\_name|||version|||unreasonable|||unusual|||eller|||.item|||speculation|||stealth|||continue|||denn|||unrelated|||table\\_name|||unbreakable|||será|||orang|||internacional|||award|||item|||pourrait|||um|||so|||arg|||familiar|||request.method|||unpredictable|||spec|||universal|||chaotic|||simulation|||resolved\\_name|||searchable',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'mode\\_setting, mode, reward, modem, '
+                                       'item.name, scrname, entire, '
+                                       'international, propose, retain, '
+                                       'almost, bidang, controlled, '
+                                       'model\\_name, available.; Summary: '
+                                       'programming models;'},
+              'score': 0.390416563,
+              'values': []},
+             {'id': '7198',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 5.0,
+                           'Model': 'llama',
+                           'Rank': 278.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'programming concepts',
+                           'Tokens': 'Words: params=params, liegt, shout, '
+                                     'versus, grep, params, nullable=False, '
+                                     'poly, metodo, questa, test, attain, '
+                                     'uint, y\\_test, then.',
+                           'TopK': 'params=params|||liegt|||shout|||versus|||grep|||params|||nullable=False|||poly|||metodo|||questa|||test|||attain|||uint|||y\\_test|||then|||Benjamin|||elenco|||waterfall|||X\\_test|||Coda|||같습니다|||uncertainty|||가장|||pytest|||Tag\\_Details|||plaintext|||zij|||jako|||generateStaticParams|||proxy\\_set\\_header|||Gandhi|||height=|||insieme|||RTX|||leaving|||not|||again|||Testament|||canonical|||train\\_test\\_split|||질문에|||이해하고|||Escena|||ul|||papaya|||ultrasound|||juego|||ropa|||clothe|||Bain',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'params=params, liegt, shout, versus, '
+                                       'grep, params, nullable=False, poly, '
+                                       'metodo, questa, test, attain, uint, '
+                                       'y\\_test, then.; Summary: programming '
+                                       'concepts;'},
+              'score': 0.389168173,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+What are the concepts learned by the 10th layer of LLAMA model?,"{'matches': [{'id': '3284',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 8.0,
+                           'Model': 'vicuna',
+                           'Rank': 281.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'neural network architecture',
+                           'Tokens': 'Words: next-generation, multiclass, '
+                                     'outline, layer, repeatedly, redundant, '
+                                     'correctly, diligently, centrum, export, '
+                                     'multi-layer, 모든, second-hand, syndicate, '
+                                     'never-ending.',
+                           'TopK': ""next-generation|||multiclass|||outline|||layer|||repeatedly|||redundant|||correctly|||diligently|||centrum|||export|||multi-layer|||모든|||second-hand|||syndicate|||never-ending|||defensive|||intergenerational|||Rey|||generics.GenericAPIView|||wichtigsten|||apparently|||unfinished|||Indio|||one-year|||split|||decision-makers|||decision-making|||SPL|||formulario|||spectacular|||Viktor|||Lage|||okay|||technical|||'hello|||Dockerfile|||normes|||APL|||caregiving|||generales|||sueño|||todo|||exigency|||norm|||deposit|||LP|||year-old|||connais|||Salesforce|||median"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'next-generation, multiclass, outline, '
+                                       'layer, repeatedly, redundant, '
+                                       'correctly, diligently, centrum, '
+                                       'export, multi-layer, 모든, second-hand, '
+                                       'syndicate, never-ending.; Summary: '
+                                       'neural network architecture;'},
+              'score': 0.410682768,
+              'values': []},
+             {'id': '7008',
+              'metadata': {'Concept': 'Morphology',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 7.0,
+                           'Model': 'llama',
+                           'Rank': 117.0,
+                           'Score': 0.0009,
+                           'Size': '7B',
+                           'Summary': 'manipulation of forms or objects',
+                           'Tokens': 'Words: arose, emphasize, formData, '
+                                     'paused, standardize, formative, itemize, '
+                                     'toma, IndigoObject, form, '
+                                     'UserRepository, Finalize, graduated, '
+                                     'os.makedirs, bother.',
+                           'TopK': 'arose|||emphasize|||formData|||paused|||standardize|||formative|||itemize|||toma|||IndigoObject|||form|||UserRepository|||Finalize|||graduated|||os.makedirs|||bother|||newbie|||divination|||fantasy|||indeed|||vitamin|||naked|||stoma|||ITV|||memorize|||nlapiLogExecution|||know|||acquisto|||withstand|||specialize|||FormData|||educational|||modernize|||initiation|||prioritize|||utilize|||microorganism|||pause|||completed|||ICP|||began|||explicit|||generalize|||timer|||coming|||Forex|||petits|||comunicazione|||attachment|||data.csv|||expert',
+                           'Type': 'down',
+                           'metadata': 'Concept: Morphology; Tokens: Words: '
+                                       'arose, emphasize, formData, paused, '
+                                       'standardize, formative, itemize, toma, '
+                                       'IndigoObject, form, UserRepository, '
+                                       'Finalize, graduated, os.makedirs, '
+                                       'bother.; Summary: manipulation of '
+                                       'forms or objects;'},
+              'score': 0.357148767,
+              'values': []},
+             {'id': '6586',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 12.0,
+                           'Model': 'llama',
+                           'Rank': 180.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'programming models',
+                           'Tokens': 'Words: mode\\_setting, mode, reward, '
+                                     'modem, item.name, scrname, entire, '
+                                     'international, propose, retain, almost, '
+                                     'bidang, controlled, model\\_name, '
+                                     'available.',
+                           'TopK': 'mode\\_setting|||mode|||reward|||modem|||item.name|||scrname|||entire|||international|||propose|||retain|||almost|||bidang|||controlled|||model\\_name|||available|||gab|||ASCII|||tent|||continued|||model\\_config.model\\_name|||version|||unreasonable|||unusual|||eller|||.item|||speculation|||stealth|||continue|||denn|||unrelated|||table\\_name|||unbreakable|||será|||orang|||internacional|||award|||item|||pourrait|||um|||so|||arg|||familiar|||request.method|||unpredictable|||spec|||universal|||chaotic|||simulation|||resolved\\_name|||searchable',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'mode\\_setting, mode, reward, modem, '
+                                       'item.name, scrname, entire, '
+                                       'international, propose, retain, '
+                                       'almost, bidang, controlled, '
+                                       'model\\_name, available.; Summary: '
+                                       'programming models;'},
+              'score': 0.346961319,
+              'values': []},
+             {'id': '3517',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 4.0,
+                           'Model': 'vicuna',
+                           'Rank': 202.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'neural network layers and parameters.',
+                           'Tokens': 'Words: tf.keras.layers.Conv2D, 1.0f, '
+                                     'initial-scale=1.0, 0.0f, '
+                                     'tf.keras.layers.Dense, dakwah, 1:1, '
+                                     'Conv2d, tensorflow.keras.layers, '
+                                     'max_length=100, 1., 1.1, 11., Pawlet, '
+                                     'max_length=20.',
+                           'TopK': ""tf.keras.layers.Conv2D|||1.0f|||initial-scale=1.0|||0.0f|||tf.keras.layers.Dense|||dakwah|||1:1|||Conv2d|||tensorflow.keras.layers|||max_length=100|||1.|||1.1|||11.|||Pawlet|||max_length=20|||nn.Conv2d|||'127.0.0.1|||0.1|||10.|||1.0|||PY2021|||handbag|||.2f|||2.1|||1.2|||12.|||'12:0-0:0|||6.1|||1.6|||16.|||127.0.0.1|||1:30|||1.0.0|||1.3|||13.|||3.1|||11:30|||Y.|||3.11|||'wc1|||:1|||19.1|||9.1|||19.|||1.9|||192.168.1.1|||tensorflow.keras.models|||11:00|||fmt.Errorf|||7.1"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'tf.keras.layers.Conv2D, 1.0f, '
+                                       'initial-scale=1.0, 0.0f, '
+                                       'tf.keras.layers.Dense, dakwah, 1:1, '
+                                       'Conv2d, tensorflow.keras.layers, '
+                                       'max_length=100, 1., 1.1, 11., Pawlet, '
+                                       'max_length=20.; Summary: neural '
+                                       'network layers and parameters.;'},
+              'score': 0.34694311,
+              'values': []},
+             {'id': '3474',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 5.0,
+                           'Model': 'vicuna',
+                           'Rank': 257.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'neural network layers or components.',
+                           'Tokens': 'Words: xhr.onload, n2, n-2, bunny, dp37, '
+                                     'nn.Conv2d, d6, nz, native, plage, nama, '
+                                     'nn.Linear, n1, n0, n-1.',
+                           'TopK': 'xhr.onload|||n2|||n-2|||bunny|||dp37|||nn.Conv2d|||d6|||nz|||native|||plage|||nama|||nn.Linear|||n1|||n0|||n-1|||n|||Ashtanga|||x86|||nx|||dp|||résultats|||x2|||nn.Module|||x64|||sage|||nn.MaxPool2d|||diluted|||Suisse|||2-hour|||d4|||24-hour|||modo|||système|||nth|||nm|||clon|||x3|||Biases|||pueden|||d20|||napping|||unlock|||careful|||x509|||hostage|||Alp|||age-related|||nya|||Entscheidungen|||simpler',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'xhr.onload, n2, n-2, bunny, dp37, '
+                                       'nn.Conv2d, d6, nz, native, plage, '
+                                       'nama, nn.Linear, n1, n0, n-1.; '
+                                       'Summary: neural network layers or '
+                                       'components.;'},
+              'score': 0.33836627,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+How can I create a budget and manage my finances better?,"{'matches': [{'id': '6664',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 11.0,
+                           'Model': 'llama',
+                           'Rank': 99.0,
+                           'Score': 0.0009,
+                           'Size': '7B',
+                           'Summary': 'financial metrics and concepts.',
+                           'Tokens': 'Words: loss.backward, without, ROE, '
+                                     'newfound, notable, Voiceover, absence, '
+                                     'nome, unable, would, cost-effectiveness, '
+                                     'ROA, return, non-fiction, Logback.',
+                           'TopK': 'loss.backward|||without|||ROE|||newfound|||notable|||Voiceover|||absence|||nome|||unable|||would|||cost-effectiveness|||ROA|||return|||non-fiction|||Logback|||indefinitely|||observable|||expiry|||half-life|||ROWS|||GND|||긍정적인|||plus|||ROC|||retour|||ROI|||Ben|||precondition|||fate|||returnvar|||soup.find|||géographique|||optimization|||ROAS|||nivel|||backward|||entiendo|||suddenly|||server-side|||cost-effective|||v=9Dsm4PzkQpQ|||bind|||Atlantic|||unnecessary|||look-back|||pointless|||applyEffect|||conscious|||SD-WAN|||second-hand',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'loss.backward, without, ROE, newfound, '
+                                       'notable, Voiceover, absence, nome, '
+                                       'unable, would, cost-effectiveness, '
+                                       'ROA, return, non-fiction, Logback.; '
+                                       'Summary: financial metrics and '
+                                       'concepts.;'},
+              'score': 0.237915277,
+              'values': []},
+             {'id': '5687',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 18.0,
+                           'Model': 'llama',
+                           'Rank': 126.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'financial transactions or expenses.',
+                           'Tokens': 'Words: payment, $, money, one, '
+                                     'encourage, intellect, necessity, '
+                                     'necesites, stuff, necessary, wenn, this, '
+                                     'silly, necesaria, anything.',
+                           'TopK': 'payment|||$|||money|||one|||encourage|||intellect|||necessity|||necesites|||stuff|||necessary|||wenn|||this|||silly|||necesaria|||anything|||tracker|||love|||us|||people|||this.setState|||required|||necesitan|||compensated|||choosing|||freezer|||€|||decreasing|||travel|||first|||support|||compensation|||où|||necesarias|||usize|||payment\\_date|||help|||erfaring|||foolish|||seriousness|||benefícios|||decreased|||required=True|||computer|||expand|||marketplace|||police|||compute|||assistance|||necessarie|||cause',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'payment, $, money, one, encourage, '
+                                       'intellect, necessity, necesites, '
+                                       'stuff, necessary, wenn, this, silly, '
+                                       'necesaria, anything.; Summary: '
+                                       'financial transactions or expenses.;'},
+              'score': 0.230373949,
+              'values': []},
+             {'id': '6055',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 16.0,
+                           'Model': 'llama',
+                           'Rank': 221.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'financial transactions or costs',
+                           'Tokens': 'Words: cost, flag, fino, originate, '
+                                     'probable, cross-origin, origin, costly, '
+                                     'England, expenditure, convey, workbook, '
+                                     'NFC, XX, percent.',
+                           'TopK': 'cost|||flag|||fino|||originate|||probable|||cross-origin|||origin|||costly|||England|||expenditure|||convey|||workbook|||NFC|||XX|||percent|||Valley|||novi|||dirty|||originating|||configuration|||quickly|||France|||equipment|||wurden|||recognition|||powerskills|||portion|||fancy|||configure|||fee|||native|||fellow|||restored|||wife|||novo|||dream|||unsafe|||Costco|||Women|||simmer|||whoever|||XXXX|||conveyor|||regenerative|||violate|||removing|||necessarily|||slice|||percentage|||culprit',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'cost, flag, fino, originate, probable, '
+                                       'cross-origin, origin, costly, England, '
+                                       'expenditure, convey, workbook, NFC, '
+                                       'XX, percent.; Summary: financial '
+                                       'transactions or costs;'},
+              'score': 0.219211802,
+              'values': []},
+             {'id': '2172',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 17.0,
+                           'Model': 'vicuna',
+                           'Rank': 237.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'cost and affordability.',
+                           'Tokens': 'Words: majority, cost, expensive, '
+                                     'costly, tecnología, multiple, ejecución, '
+                                     'costo, stereotype, evil, Cathy, '
+                                     'low-cost, medieval, sucesso, certain.',
+                           'TopK': ""majority|||cost|||expensive|||costly|||tecnología|||multiple|||ejecución|||costo|||stereotype|||evil|||Cathy|||low-cost|||medieval|||sucesso|||certain|||occurrence|||identification|||'Other|||stressful|||unfold|||repeatedly|||Angebot|||routinely|||urgency|||sensitivity|||canvas.width|||sheath|||harmful|||K'Ratha|||difficulty|||automotive|||Santo|||problemas|||berkaitan|||distort|||incident|||hast|||base_model|||transition|||tecnologia|||peacefully|||canvas|||certainty|||stress-free|||certaines|||cualquier|||insightful|||historia|||nostalgia|||pygame"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'majority, cost, expensive, costly, '
+                                       'tecnología, multiple, ejecución, '
+                                       'costo, stereotype, evil, Cathy, '
+                                       'low-cost, medieval, sucesso, certain.; '
+                                       'Summary: cost and affordability.;'},
+              'score': 0.218634516,
+              'values': []},
+             {'id': '6725',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 10.0,
+                           'Model': 'llama',
+                           'Rank': 11.0,
+                           'Score': 0.0019,
+                           'Size': '7B',
+                           'Summary': 'project management',
+                           'Tokens': 'Words: campaign, offrir, my-project, '
+                                     'Therefore, aplicar, recommender, quit, '
+                                     'time-saving, into, forward-thinking, '
+                                     'django-admin, project-based, pengaruh, '
+                                     'myproject, November.',
+                           'TopK': 'campaign|||offrir|||my-project|||Therefore|||aplicar|||recommender|||quit|||time-saving|||into|||forward-thinking|||django-admin|||project-based|||pengaruh|||myproject|||November|||offender|||.gitignore|||États-Unis|||time-based|||my_function|||.numpy|||eller|||output_file|||conjecture|||mucho|||home|||my_dict|||capturar|||client-side|||close_price|||service-based|||application/x-tex|||grouped_df.to_csv|||back-end|||myfile|||werden|||aplicativo|||ouvert|||my_string|||but|||fase|||Cyrus|||delivery_address|||server-side|||time-consuming|||difficultés|||niños|||test_df|||referral|||fault-tolerant',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'campaign, offrir, my-project, '
+                                       'Therefore, aplicar, recommender, quit, '
+                                       'time-saving, into, forward-thinking, '
+                                       'django-admin, project-based, pengaruh, '
+                                       'myproject, November.; Summary: project '
+                                       'management;'},
+              'score': 0.215433955,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
+What are the concepts in 20th layer of vicuna model?,"{'matches': [{'id': '3284',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 8.0,
+                           'Model': 'vicuna',
+                           'Rank': 281.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'neural network architecture',
+                           'Tokens': 'Words: next-generation, multiclass, '
+                                     'outline, layer, repeatedly, redundant, '
+                                     'correctly, diligently, centrum, export, '
+                                     'multi-layer, 모든, second-hand, syndicate, '
+                                     'never-ending.',
+                           'TopK': ""next-generation|||multiclass|||outline|||layer|||repeatedly|||redundant|||correctly|||diligently|||centrum|||export|||multi-layer|||모든|||second-hand|||syndicate|||never-ending|||defensive|||intergenerational|||Rey|||generics.GenericAPIView|||wichtigsten|||apparently|||unfinished|||Indio|||one-year|||split|||decision-makers|||decision-making|||SPL|||formulario|||spectacular|||Viktor|||Lage|||okay|||technical|||'hello|||Dockerfile|||normes|||APL|||caregiving|||generales|||sueño|||todo|||exigency|||norm|||deposit|||LP|||year-old|||connais|||Salesforce|||median"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'next-generation, multiclass, outline, '
+                                       'layer, repeatedly, redundant, '
+                                       'correctly, diligently, centrum, '
+                                       'export, multi-layer, 모든, second-hand, '
+                                       'syndicate, never-ending.; Summary: '
+                                       'neural network architecture;'},
+              'score': 0.395358831,
+              'values': []},
+             {'id': '3517',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 4.0,
+                           'Model': 'vicuna',
+                           'Rank': 202.0,
+                           'Score': 0.0007,
+                           'Size': '7B',
+                           'Summary': 'neural network layers and parameters.',
+                           'Tokens': 'Words: tf.keras.layers.Conv2D, 1.0f, '
+                                     'initial-scale=1.0, 0.0f, '
+                                     'tf.keras.layers.Dense, dakwah, 1:1, '
+                                     'Conv2d, tensorflow.keras.layers, '
+                                     'max_length=100, 1., 1.1, 11., Pawlet, '
+                                     'max_length=20.',
+                           'TopK': ""tf.keras.layers.Conv2D|||1.0f|||initial-scale=1.0|||0.0f|||tf.keras.layers.Dense|||dakwah|||1:1|||Conv2d|||tensorflow.keras.layers|||max_length=100|||1.|||1.1|||11.|||Pawlet|||max_length=20|||nn.Conv2d|||'127.0.0.1|||0.1|||10.|||1.0|||PY2021|||handbag|||.2f|||2.1|||1.2|||12.|||'12:0-0:0|||6.1|||1.6|||16.|||127.0.0.1|||1:30|||1.0.0|||1.3|||13.|||3.1|||11:30|||Y.|||3.11|||'wc1|||:1|||19.1|||9.1|||19.|||1.9|||192.168.1.1|||tensorflow.keras.models|||11:00|||fmt.Errorf|||7.1"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'tf.keras.layers.Conv2D, 1.0f, '
+                                       'initial-scale=1.0, 0.0f, '
+                                       'tf.keras.layers.Dense, dakwah, 1:1, '
+                                       'Conv2d, tensorflow.keras.layers, '
+                                       'max_length=100, 1., 1.1, 11., Pawlet, '
+                                       'max_length=20.; Summary: neural '
+                                       'network layers and parameters.;'},
+              'score': 0.391330689,
+              'values': []},
+             {'id': '6096',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 15.0,
+                           'Model': 'llama',
+                           'Rank': 15.0,
+                           'Score': 0.0015,
+                           'Size': '7B',
+                           'Summary': 'technology features/attributes',
+                           'Tokens': 'Words: game-like, click-through, '
+                                     'v-model=, pay-per-click, well-being, '
+                                     'my-project, right-clicking, '
+                                     'out-of-the-box, text-to-image, '
+                                     'click-enticing, v-for=, '
+                                     'application/x-tex, RISC-V, '
+                                     'one-size-fits-all, AR/VR.',
+                           'TopK': 'game-like|||click-through|||v-model=|||pay-per-click|||well-being|||my-project|||right-clicking|||out-of-the-box|||text-to-image|||click-enticing|||v-for=|||application/x-tex|||RISC-V|||one-size-fits-all|||AR/VR|||human-like|||state-of-the-art|||speech-to-text|||I/O|||record-keeping|||text-decoration-color|||world-building|||box-shadow|||Karst-like|||Chat-GPT|||text-center|||and/or|||high-performing|||work-related|||life-threatening|||well-crafted|||heal|||£-|||well-written|||/Users/abhishekpillai/Library/Caches/pypoetry/virtualenvs/api|||well-defined|||serial-|||E-|||A-Z|||form-group|||table-to-text|||data-evernote-id=|||error-correcting|||go-acme|||expert-comptable|||face-to-face|||All-Is-Alive|||one-on-one|||in-text|||Oatmeal',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'game-like, click-through, v-model=, '
+                                       'pay-per-click, well-being, my-project, '
+                                       'right-clicking, out-of-the-box, '
+                                       'text-to-image, click-enticing, v-for=, '
+                                       'application/x-tex, RISC-V, '
+                                       'one-size-fits-all, AR/VR.; Summary: '
+                                       'technology features/attributes;'},
+              'score': 0.369251072,
+              'values': []},
+             {'id': '2370',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 15.0,
+                           'Model': 'vicuna',
+                           'Rank': 15.0,
+                           'Score': 0.0015,
+                           'Size': '7B',
+                           'Summary': 'technology features or functionalities.',
+                           'Tokens': 'Words: click-through, game-like, '
+                                     'v-model=, pay-per-click, my-project, '
+                                     'right-clicking, well-being, '
+                                     'text-to-image, click-enticing, '
+                                     'out-of-the-box, v-for=, '
+                                     'application/x-tex, RISC-V, '
+                                     'one-size-fits-all, AR/VR.',
+                           'TopK': 'click-through|||game-like|||v-model=|||pay-per-click|||my-project|||right-clicking|||well-being|||text-to-image|||click-enticing|||out-of-the-box|||v-for=|||application/x-tex|||RISC-V|||one-size-fits-all|||AR/VR|||world-building|||text-decoration-color|||state-of-the-art|||I/O|||speech-to-text|||text-center|||record-keeping|||human-like|||Chat-GPT|||£-|||box-shadow|||well-crafted|||heal|||serial-|||life-threatening|||Karst-like|||work-related|||/Users/abhishekpillai/Library/Caches/pypoetry/virtualenvs/api|||high-performing|||E-|||and/or|||well-written|||form-group|||well-defined|||A-Z|||table-to-text|||face-to-face|||error-correcting|||grid-template-columns|||data-evernote-id=|||Oatmeal|||world-class|||go-acme|||All-Is-Alive|||param-',
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'click-through, game-like, v-model=, '
+                                       'pay-per-click, my-project, '
+                                       'right-clicking, well-being, '
+                                       'text-to-image, click-enticing, '
+                                       'out-of-the-box, v-for=, '
+                                       'application/x-tex, RISC-V, '
+                                       'one-size-fits-all, AR/VR.; Summary: '
+                                       'technology features or '
+                                       'functionalities.;'},
+              'score': 0.360461175,
+              'values': []},
+             {'id': '5884',
+              'metadata': {'Concept': 'Semantic',
+                           'Explainable': 1.0,
+                           'Head': 0.0,
+                           'Layer': 17.0,
+                           'Model': 'llama',
+                           'Rank': 178.0,
+                           'Score': 0.0006,
+                           'Size': '7B',
+                           'Summary': 'software development concepts',
+                           'Tokens': 'Words: required, profesionales, fail, '
+                                     'TF-IDF, v-model=, interface, efter, '
+                                     ""user-defined, l'interface, election, ""
+                                     'self-executing, requirement, '
+                                     'face-to-face, control, self.model.',
+                           'TopK': ""required|||profesionales|||fail|||TF-IDF|||v-model=|||interface|||efter|||user-defined|||l'interface|||election|||self-executing|||requirement|||face-to-face|||control|||self.model|||might|||day-to-day|||T8|||'183-day|||KF|||+3|||+5|||KWALL|||if-else|||+1|||form-control|||self-control|||login_required|||30-day|||e-book|||mundo|||speech-to-text|||version=|||3-day|||5-day|||'required|||-8|||10-day|||but|||30-second|||modern-day|||=F|||derived|||controlar|||1-day|||m-1|||user-generated|||TFU|||must-visit|||on-chain"",
+                           'Type': 'down',
+                           'metadata': 'Concept: Semantic; Tokens: Words: '
+                                       'required, profesionales, fail, TF-IDF, '
+                                       'v-model=, interface, efter, '
+                                       ""user-defined, l'interface, election, ""
+                                       'self-executing, requirement, '
+                                       'face-to-face, control, self.model.; '
+                                       'Summary: software development '
+                                       'concepts;'},
+              'score': 0.354085118,
+              'values': []}],
+ 'namespace': '',
+ 'usage': {'read_units': 6}}"
