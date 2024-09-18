@@ -1,4 +1,4 @@
-# Compose a postgres database together with the extension pgvector
+version: '3'
 services:
   db:
     hostname: db
@@ -12,4 +12,5 @@ services:
       - POSTGRES_PASSWORD=xai@123
       - POSTGRES_HOST_AUTH_METHOD=trust
     volumes:
-     - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+     - ./pg_vector_db:/var/lib/postgresql/data   # Local folder for database persistence
+     - ./init.sql:/docker-entrypoint-initdb.d/init.sql   # Initial script if needed
