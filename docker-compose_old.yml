@@ -13,4 +13,4 @@ services:
       - POSTGRES_HOST_AUTH_METHOD=trust
     volumes:
      - ./pg_vector_db:/var/lib/postgresql/data   # Local folder for database persistence
-     - ./init.sql:/docker-entrypoint-initdb.d/init.sql   # Initial script if needed
+    #  - ./init.sql:/docker-entrypoint-initdb.d/init.sql   # Initial script if needed
