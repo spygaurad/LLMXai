@@ -16,13 +16,17 @@ async def main():
     # Concatenate 'concept' and 'tokens' into a single sentence
     df['metadata'] = [f"{concept} - {tokens}" for concept, tokens in zip(df['Concept'], df['Tokens'])]
     await db.create_schema()
-    # df = df[:24]
+    df = df[:200]
     await db.insert_data(df)
 
-    query = 'Does LLAMA model has bias towards any religion?'
+    query = 'Does Vicuna model has bias towards any programming language?'
     keyword = 'vicuna'
 
     results = await db.keyword_search(keyword)
+    # print(results)
+    results = await db.semantic_search(query)
+    results = await db.semantic_with_keyword_search(query, keyword)
+    print(results)
  
     # Perform queries in parallel
     # results = await asyncio.gather(

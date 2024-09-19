@@ -57,10 +57,6 @@ class Database:
         # await self.conn.execute(f"CREATE INDEX IF NOT EXISTS {self.TABLE_DOCUMENTS} USING GIN (to_tsvector('english', content))")
 
     async def insert_data(self, df):
-        # Extract 'Tokens' column for embedding
-        sentences = df['metadata'].tolist()  # Assuming you're embedding the 'Tokens' field
-        embeddings = self.embedder.encode(sentences)
-        embeddings = [embedding.tolist() for embedding in embeddings]
 
         # Check if data already exists
         async with self.conn.cursor() as cur:
@@ -68,6 +64,12 @@ class Database:
             count = (await cur.fetchone())[0]
             if count > 0:
                 return  # Data already exists
+                # Extract 'Tokens' column for embedding
+
+        sentences = df['metadata'].tolist()  # Assuming you're embedding the 'Tokens' field
+        embeddings = self.embedder.encode(sentences)
+        embeddings = [embedding.tolist() for embedding in embeddings]
+
 
         # Prepare SQL insert for each field
         sql = f'''INSERT INTO {self.TABLE_DOCUMENTS} 
@@ -90,7 +92,7 @@ class Database:
                 row['Score'], 
                 row['TopK'], 
                 row['metadata'],
-                embedding
+                embedding 
             )
             for (_, row), embedding in zip(df.iterrows(), embeddings)  # Iterate over both DataFrame and embeddings
         ]))
@@ -108,7 +110,7 @@ class Database:
             await cur.execute('''
                 SELECT id, concept, explainable, tokens, summary, model, size, layer, type, head, rank, score, topk, metadata
                 FROM linear_concept
-                ORDER BY embedding <=> %s
+                ORDER BY embedding <=> %s::vector
                 LIMIT 5
             ''', (query_embedding,))
             
@@ -127,6 +129,24 @@ class Database:
                     FROM linear_concept
                     WHERE model ILIKE %s  -- Case-insensitive search
                 ''', (f'%{query}%',))
+                
+                results = await cur.fetchall()
+                return results
+
+    async def semantic_with_keyword_search(self, query, keyword):
+    # Encode the query to get its embedding
+        query_embedding = self.embedder.encode([query])[0].tolist()  # Ensure it's a list
+
+        async with self.conn.transaction():  # Ensures proper transaction management
+            async with self.conn.cursor() as cur:
+                # Use pgvector's <=> operator to find nearest vectors (cosine similarity by default)
+                await cur.execute('''
+                    SELECT id, concept, explainable, tokens, summary, model, size, layer, type, head, rank, score, topk, metadata
+                    FROM linear_concept
+                    WHERE model ILIKE %s  -- Case-insensitive search
+                    ORDER BY embedding <=> %s::vector
+                    LIMIT 5
+                ''', (f'%{keyword}%', query_embedding))
                 
                 results = await cur.fetchall()
                 return results
