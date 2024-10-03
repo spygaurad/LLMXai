@@ -10,18 +10,18 @@ import json
 import re
 import asyncio
 
-
+# Load environment variables from a .env file (for credentials or API keys)
 load_dotenv()
 
 
-# Define the template for generating the prompt
+# Define the first template for generating prompts related to key-value extraction
 template1 = """<s>[INST] You are a key value extraction assistant. The user enters a text, your task is to extract the key-value pairs from the text.
 {examples}
 Based on above example responses, provide a dictionary of key (model and layer) and their value. Give short and clear answer. [/INST]
 User: {question}
 Assistant:"""
 
-
+# Define the second template for generating prompts that answer questions based on JSON context
 template2 = """<s>[INST] You will have information in json format. Based on values of the json, answer the question asked by the user
 Json Information:
 {context}
@@ -31,7 +31,7 @@ User: {question}
 Assistant:"""
 
 
-# Define the generation examples
+# Define examples to be used in the first prompt template
 generation_examples = """
 {
 Example 1:
@@ -51,9 +51,13 @@ Assistant: {
 }
 """
 
+# Function to generate prompt using template1 for key-value extraction
 def generate_template_1(question,template, examples):
+
+    # Format the template with the question and examples
     return template.format(question=question, examples=examples)
 
+# Function to generate the final prompt using template2, adding context, model, and layer information
 def generate_template_final(question, template,context, model, layer):
     return template.format(question=question, context=context, model=model, layer=layer)
 
@@ -84,12 +88,13 @@ def generate_response(prompt,api_url):
         # Handle errors
         return f"Error: {response.status_code} - {response.text}"
 
+# Function to clean the API response and extract the relevant part
 def clean_response(input_string, question):
     # Find the starting index of the question
     index = input_string.find(question)
     return input_string[index:].split("User")[0].split("Assistant")[-1]
 
-
+# Function to extract the model and layer from the text response using regex
 def extract_models_layers(text):
     model_pattern = r'"model":\s*"([^"]+)"'
     layer_pattern = r'"layer":\s*(\d+|None)'
@@ -100,11 +105,11 @@ def extract_models_layers(text):
     return model_matches[0], layers[0]
 
 
-# Example usage
+# Main function to run the process asynchronously
 async def main():
     db = Database()
     await db.connect()
-    api_url = ""  # Replace with your API endpoint
+    api_url = ""
     question = "What information does the 31st layer of Vicuna model capture?"
 
     generation_prompt = generate_template_1(question, template1, generation_examples)
